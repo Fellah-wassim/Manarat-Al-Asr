@@ -137,10 +137,26 @@ body {
   top: 0.3rem;
 }
 .full-screen-btn {
-  position: relative;
+  position: absolute;
   background: transparent;
   border: none;
   cursor: pointer;
-  left: 124.8rem;
-  top: 2.7rem;
+  right: 6.7rem;
+  top: 2.68rem;
+  transition: all 0.3s;
+}
+.full-screen-btn:hover {
+  opacity: 50%;
+}
+.left-arrow-btn {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  right: 1.1rem;
+  top: 2.4rem;
+  transition: all 0.3s;
+}
+.left-arrow-btn:hover {
+  opacity: 50%;
 }
