@@ -121,11 +121,11 @@ body {
   font: normal normal medium 2.1rem/2.9rem Tajawal;
   letter-spacing: 0;
   color: #840200;
-  font-weight: 400;
+  font-weight: 200;
 }
 .date {
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-size: 1.9rem;
+  font-weight: 300;
   text-align: left;
   font: normal normal medium 2.1rem/2.9rem Tajawal;
   letter-spacing: 0;
@@ -134,4 +134,13 @@ body {
 .logo {
   position: absolute;
   left: 102.6rem;
+  top: 0.3rem;
+}
+.full-screen-btn {
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  left: 124.8rem;
+  top: 2.7rem;
 }
