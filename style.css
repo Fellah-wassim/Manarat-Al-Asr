@@ -30,9 +30,10 @@ body {
 }
 .profile {
   top: 1.5rem;
-  left: 1.6rem;
+  left: 1.7rem;
   position: absolute;
   display: flex;
+  gap: 1rem;
 }
 .profile-img {
   width: 4.4rem;
@@ -43,14 +44,20 @@ body {
 .profile-txt {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: left;
   font: normal normal medium 14px/19px Tajawal;
   letter-spacing: 0px;
   opacity: 1;
+  gap: 0.5rem;
 }
 .profile-name {
+  font-size: 1.4rem;
   color: #000000;
+  font-weight: 500;
 }
 .profile-state {
+  font-size: 1.1rem;
   color: #840200;
+  font-weight: 500;
 }
