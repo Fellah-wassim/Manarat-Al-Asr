@@ -13,7 +13,21 @@
 
   <body>
     <div class="header">
-      <div class="profile">
+      <div class="menu">
+        <ul class="flex-column ul-menu">
+          <li> <a href="#"><img src="IMG/user.png" alt="user icon">profile</a></li>
+          <li> <a href="#"><img src="IMG/mail-inbox-app.png" alt="mail icon">Inbox</a></li>
+          <li> <a href="#"><img src="IMG/check.png" alt="check icon">Task</a></li>
+          <li> <a href="#"><img src="IMG/chat.png" alt="chat icon">Chat</a></li>
+        </ul>
+          <div class="menu-separition"></div>
+          <ul class="flex-column ul-menu2">
+          <li> <a href="#"><img src="IMG/settings (1).png" alt="settings icon">Settings</a></li>
+          <li> <a href="#"><img src="IMG/price-tag.png" alt="price icon">Pricing</a></li>
+          <li> <a href="#"><img src="IMG/ask.png" alt="Faq icon">FAQ</a></li>
+        </ul>
+      </div>
+      <button id="profile-bar" class="profile">
         <img
           src="IMG/avatar-s-11.jpg"
           alt="profile image"
@@ -23,7 +37,7 @@
           <p class="profile-name">John Doe</p>
           <p class="profile-state">Admin</p>
         </div>
-      </div>
+      </button>
       <div class="online"></div>
       <div class="notif-darkmode">
         <button class="darkmode-btn">
