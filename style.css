@@ -5,15 +5,12 @@
 }
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Tajawal", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
-  overflow-x: hidden;
 }
 .header {
   position: relative;
@@ -58,20 +55,20 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  font: normal normal medium 14px/19px Tajawal;
+  font: normal normal medium 1.4rem/1.9rem Tajawal;
   letter-spacing: 0px;
   opacity: 1;
   gap: 0.5rem;
 }
 .profile-name {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #000000;
-  font-weight: 500;
+  font-weight: 800;
 }
 .profile-state {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #840200;
-  font-weight: 500;
+  font-weight: 800;
 }
 .notif-darkmode {
   position: absolute;
@@ -104,7 +101,7 @@ body {
 }
 .box {
   position: relative;
-  width: 12rem;
+  width: 11rem;
   height: 4rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0.4rem 0.5rem 0.6rem #00000029;
@@ -116,16 +113,16 @@ body {
 }
 
 .clock {
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-align: left;
   font: normal normal medium 2.1rem/2.9rem Tajawal;
   letter-spacing: 0;
   color: #840200;
-  font-weight: 200;
+  font-weight: 500;
 }
 .date {
-  font-size: 1.9rem;
-  font-weight: 300;
+  font-size: 2.1rem;
+  font-weight: 500;
   text-align: left;
   font: normal normal medium 2.1rem/2.9rem Tajawal;
   letter-spacing: 0;
@@ -159,4 +156,72 @@ body {
 }
 .left-arrow-btn:hover {
   opacity: 50%;
+}
+.pages {
+  margin-top: 2rem;
+  max-width: 140rem;
+  margin: 2rem auto;
+  position: relative;
+}
+/* .page1 {
+} */
+
+.header-title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31.6rem;
+  height: 2.9rem;
+  background: #fdc53a 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.2rem 0.6rem #00000029;
+  border: 0.04000000059604645rem solid #840200;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  text-align: left;
+  font: normal normal medium 1.8rem/2.5rem Tajawal;
+  letter-spacing: 0rem;
+  color: #282626;
+  font-weight: 700;
+  z-index: 2;
+}
+.input-note {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.4rem;
+  position: relative;
+  width: 30.9rem;
+  height: 10rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.5rem 0.6rem #00000029;
+  border: 0.020000000298023224rem solid #840200;
+  border-radius: 0.7rem;
+  top: 2.2rem;
+  left: 0.3rem;
+  z-index: 1;
+  background: url(IMG/edit.png) no-repeat;
+  background-size: 25%;
+  background-position: 1rem 1rem;
+  opacity: 50%;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.input-note::placeholder {
+  font-family: "Tajawal", sans-serif;
+  position: absolute;
+  font-size: 1.4rem;
+  top: 2rem;
+  right: 1rem;
+  z-index: 3;
+  letter-spacing: 0;
+  color: #282626;
+  text-align: right;
+  font-weight: 700;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
 }
