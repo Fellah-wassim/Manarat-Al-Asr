@@ -19,8 +19,7 @@ function displayClock() {
   if (sec < 10) {
     sec = "0" + sec;
   }
-  document.getElementById("clock").innerHTML =
-    hours + ":" + min + ":" + sec;
+  document.getElementById("clock").innerHTML = hours + ":" + min + ":" + sec;
 }
 
 setInterval(displayDate, 500);
@@ -35,8 +34,7 @@ function displayDate() {
   if (month < 10) {
     month = "0" + month;
   }
-  document.getElementById("date").innerHTML =
-    month + "/" + day + "/" + year;
+  document.getElementById("date").innerHTML = month + "/" + day + "/" + year;
 }
 
 var btn1 = document.getElementById("full-screen");
