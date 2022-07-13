@@ -80,6 +80,8 @@ body {
 
 .menu {
   position: relative;
+  top: 6rem;
+  left: 2rem;
   z-index: 99;
   width: 15.8rem;
   height: 25rem;
@@ -87,6 +89,12 @@ body {
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.1rem solid #840100;
   border-radius: 1.1rem;
+  visibility: hidden;
+  opacity: 0;
+}
+.menu.active {
+  visibility: visible;
+  opacity: 1;
 }
 .menu-separition {
   position: absolute;

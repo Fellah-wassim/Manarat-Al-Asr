@@ -49,3 +49,7 @@ btn1.addEventListener("click", () => {
     document.exitFullscreen();
   }
 });
+function menuToggler() {
+  const toggleMenu = document.querySelector(".menu");
+  toggleMenu.classList.toggle("active");
+}
