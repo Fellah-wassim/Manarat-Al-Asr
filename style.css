@@ -245,30 +245,151 @@ input:focus::-webkit-input-placeholder {
   margin-top: 3rem;
   font-weight: 600;
 }
+.lines {
+  display: flex;
+  flex-direction: column;
+}
 .line-one {
   top: 10.7rem;
   left: 1.2rem;
   position: absolute;
 }
-.line-one-t {
+.line-two {
+  top: 15.7rem;
+  left: 1.2rem;
+  position: absolute;
+}
+.line-three {
+  top: 20.7rem;
+  left: 1.2rem;
+  position: absolute;
+}
+.line-four {
+  top: 25.7rem;
+  left: 1.2rem;
+  position: absolute;
+}
+.line-five {
+  top: 30.7rem;
+  left: 1.2rem;
+  position: absolute;
+}
+.line-one-t,
+.line-two-t,
+.line-three-t,
+.line-four-t,
+.line-five-t {
   display: flex;
   align-items: center;
   gap: 9.3rem;
 }
-.no-tax-txt {
+.line-two-t {
+  gap: 11.7rem;
+}
+.line-three-t {
+  gap: 23rem;
+}
+.line-four-t {
+  gap: 14rem;
+}
+.line-five-t {
+  gap: 19rem;
+}
+.no-tax-txt,
+.tax-txt,
+.khasm-txt,
+.total-with-khasm-txt,
+.dariba-txt {
   font-size: 1.6rem;
   font: normal normal medium 1.8rem/2.5rem Tajawal;
   letter-spacing: 0px;
   color: #282626;
   font-weight: 600;
+  text-align: right;
 }
-.no-tax-price {
+.no-tax-price,
+.tax-price,
+.khasm-price,
+.total-with-khasm-price,
+.dariba-price {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #000000;
+  color: #282626;
 }
 .line-ylw {
   width: 28.5rem;
   border: 0.1rem solid #fdc53a;
-  margin: 1.4rem auto;
+  margin: 1.7rem auto;
+}
+.total-pricing {
+  position: absolute;
+  top: 35rem;
+  left: 0.5rem;
+  width: 29.7rem;
+  height: 3.9rem;
+  background: #fff7db 0% 0% no-repeat padding-box;
+  border: 0.030000001192092896rem solid #840200;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.total-pricing-txt {
+  text-align: left;
+  font: normal normal medium 1.6rem/2.2rem Tajawal;
+  letter-spacing: 0;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.total-price {
+  background-color: #ffffff;
+  width: 7rem;
+  height: 2.4rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total-price p {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #000000;
+}
+.sidad-btn {
+  position: absolute;
+  top: 45rem;
+  left: 1.9rem;
+  width: 27.1rem;
+  height: 4.9rem;
+  background: #fdc53a 0% 0% no-repeat padding-box;
+  border: 0.020000000298023224rem solid #840100;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.sidad-txt {
+  font-family: "Tajawal", sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  text-align: left;
+  font: normal normal medium 2.4rem/3.3rem Tajawal;
+  letter-spacing: 0rem;
+  color: #840200;
+  font-size: 2.4rem;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.sidad-btn:hover {
+  opacity: 60%;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 0.020000000298023224rem solid #000000;
+}
+.sidad-btn:hover > .sidad-txt {
+  color: white;
 }
