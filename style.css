@@ -266,11 +266,13 @@ body {
   background-position: 1rem 1rem;
   opacity: 50%;
   text-align: right;
+  padding-right: 1rem;
 }
 
 textarea:focus,
 input:focus {
   outline: none;
+  background: none;
 }
 
 .input-note::placeholder {
@@ -493,6 +495,7 @@ input:focus::-webkit-input-placeholder {
 .page2-box21 {
   position: absolute;
   top: 29rem;
+  left: 32.5rem;
   width: 52.3rem;
   height: 37.6rem;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -548,6 +551,7 @@ input:focus::-webkit-input-placeholder {
   background-color: #ffffff;
   font-size: 1.4rem;
   font-weight: 700;
+  cursor: pointer;
 }
 .grid1 input::placeholder,
 .grid2 input::placeholder {
@@ -578,4 +582,31 @@ input[type="date"] {
   background-color: #ffffff;
   padding-left: 13rem;
   text-transform: uppercase;
+}
+.select {
+  position: relative;
+  align-self: flex-end;
+  margin-right: 1.1rem;
+  width: 24rem;
+  height: 3.3rem;
+  box-shadow: 0rem 0.3rem 0.6rem #00000029;
+  border: 0.05rem solid #840200;
+  border-radius: 5rem;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background: url(IMG/Path\ 19.png) no-repeat; /* Add custom arrow */
+  background-color: #ffffff;
+  background-position: 5%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #282626;
+  padding-right: 1.1rem;
+}
+.select .option {
+  text-align: right;
+}
+.option {
+  padding-right: 20rem;
 }
