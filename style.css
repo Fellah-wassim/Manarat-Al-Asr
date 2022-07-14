@@ -456,3 +456,60 @@ input:focus::-webkit-input-placeholder {
 .sidad-btn:hover > .sidad-txt {
   color: white;
 }
+.pages {
+  display: flex;
+  gap: 1.5rem;
+}
+.header-title-page2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52.8rem;
+  height: 2.9rem;
+  background: #fdc53a 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.2rem 0.6rem #00000029;
+  border: 0.04000000059604645rem solid #840200;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  text-align: left;
+  font: normal normal medium 1.8rem/2.5rem Tajawal;
+  letter-spacing: 0rem;
+  color: #282626;
+  font-weight: 700;
+  z-index: 4;
+}
+.page2-box2 {
+  position: relative;
+  top: 2.2rem;
+  margin-left: 0.3rem;
+  width: 52.3rem;
+  height: 25rem;
+  background: #fff7db 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.4rem 0.6rem #00000029;
+  border: 0.04000000059604645rem solid #830100;
+  border-radius: 0.7rem;
+  z-index: 1;
+}
+.page2-box21 {
+  position: absolute;
+  top: 29rem;
+  width: 52.3rem;
+  height: 37.6rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
+  border: 0.020000000298023224rem solid #830100;
+  border-radius: 0.7rem;
+  margin-left: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2-box21-txt {
+  text-align: left;
+  font: normal normal medium 2.1rem/2.9rem Tajawal;
+  letter-spacing: 0rem;
+  color: #840100;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
