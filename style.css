@@ -607,6 +607,42 @@ input[type="date"] {
 .select .option {
   text-align: right;
 }
-.option {
-  padding-right: 20rem;
+.amil-part {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 18rem;
+  right: 1.3rem;
+}
+.amil-label {
+  align-self: flex-end;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0rem;
+  color: #840200;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-right: 1.1rem;
+}
+.amil-input {
+  width: 44.7rem;
+  height: 3.3rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.3rem 0.6rem #00000029;
+  border: 0.05rem solid #840200;
+  border-radius: 5rem;
+}
+.amil-input::placeholder {
+  padding-right: 1rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #282626;
+}
+.amil-input:focus {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 1rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #282626;
 }
