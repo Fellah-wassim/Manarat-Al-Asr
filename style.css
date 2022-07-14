@@ -446,11 +446,10 @@ input:focus::-webkit-input-placeholder {
   color: #840200;
   font-size: 2.4rem;
   font-weight: 500;
-  transition: all 0.5s;
+  transition: all 0.8s;
 }
 .sidad-btn:hover {
-  opacity: 60%;
-  background: #000000 0% 0% no-repeat padding-box;
+  background: #840200 0% 0% no-repeat padding-box;
   border: 0.020000000298023224rem solid #000000;
 }
 .sidad-btn:hover > .sidad-txt {
@@ -512,4 +511,71 @@ input:focus::-webkit-input-placeholder {
   color: #840100;
   font-size: 2.1rem;
   font-weight: 500;
+}
+.istimara-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2.5rem;
+}
+.grid1,
+.grid2 {
+  display: flex;
+  flex-direction: column;
+}
+.grid1 label,
+.grid2 label {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #840200;
+  margin-right: 2.55rem;
+  margin-bottom: 0.8rem;
+  align-self: flex-end;
+}
+.grid1 input,
+.grid2 input {
+  position: relative;
+  font-family: "Tajawal", sans-serif;
+  width: 24rem;
+  height: 3.3rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.3rem 0.6rem #00000029;
+  border: 0.05rem solid #840200;
+  border-radius: 5rem;
+  margin-right: 1.1rem;
+  align-self: flex-end;
+  background: url(IMG/Path\ 19.png) no-repeat;
+  background-position: 5%;
+  background-color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.grid1 input::placeholder,
+.grid2 input::placeholder {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #282626;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  width: 5rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 1rem;
+}
+input[type="date"]::placeholder {
+  font-family: "Tajawal", sans-serif;
+  font-size: 5rem;
+  font-weight: 800;
+}
+input[type="date"] {
+  text-align: center;
+  background: url(IMG/calendar.png) no-repeat;
+  background-size: 1.5rem 1.5rem;
+  background-position: 5%;
+  background-color: #ffffff;
+  padding-left: 13rem;
+  text-transform: uppercase;
 }
