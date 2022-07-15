@@ -12,11 +12,13 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  max-width: 133rem;
+  margin: 0 auto;
 }
 
 .header {
   position: relative;
-  max-width: 140rem;
+  max-width: 133rem;
   height: 7.5rem;
   margin: 0 auto;
   margin-top: 2rem;
@@ -279,7 +281,7 @@ body {
 
 .pages {
   margin-top: 2rem;
-  max-width: 140rem;
+  max-width: 133rem;
   margin: 2rem auto;
   position: relative;
 }
@@ -440,7 +442,7 @@ input:focus::-webkit-input-placeholder {
 }
 .line-ylw {
   width: 28.5rem;
-  border: 0.1rem solid #fdc53a;
+  border: 0.01rem solid #fdc53a;
   margin: 1.7rem auto;
 }
 .total-pricing {
@@ -698,7 +700,7 @@ input[type="date"] {
 }
 .amil-input:focus {
   background: #ffffff 0% 0% no-repeat padding-box;
-  padding: 1rem;
+  padding-right: 1.3rem;
   text-align: right;
   font-size: 1.4rem;
   font-weight: 700;
@@ -751,7 +753,7 @@ input[type="date"] {
 .page3-box2 {
   position: relative;
   top: 2.2rem;
-  margin-left: 0.3rem;
+  margin-left: 0.2rem;
   width: 29.8rem;
   height: 64.3rem;
   background: #ffff 0% 0% no-repeat padding-box;
@@ -833,4 +835,35 @@ input[type="date"] {
 }
 .divv.active .search-by-barcode {
   visibility: visible;
+}
+.header-title-page4 {
+  position: relative;
+  right: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14.1rem;
+  height: 3rem;
+  background: #fdc53a 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.2rem 0.6rem #00000029;
+  border: 0.04000000059604645rem solid #840200;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  text-align: left;
+  font: normal normal medium 1.8rem/2.5rem Tajawal;
+  letter-spacing: 0rem;
+  color: #282626;
+  font-weight: 700;
+  z-index: 4;
+}
+.page4-box2 {
+  position: absolute;
+  width: 13.6rem;
+  height: 64.3rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.3rem 0.6rem #00000029;
+  border: 0.020000000298023224rem solid #840200;
+  border-radius: 0.7rem;
+  top: 2.2rem;
+  z-index: 1;
 }
