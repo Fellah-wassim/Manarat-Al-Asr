@@ -53,3 +53,7 @@ function menuToggler() {
   const toggleMenu = document.querySelector(".menu");
   toggleMenu.classList.toggle("active");
 }
+function searchButton() {
+  const searchBtn = document.querySelector(".divv");
+  searchBtn.classList.toggle("active");
+}
