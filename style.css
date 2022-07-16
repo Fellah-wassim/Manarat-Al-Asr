@@ -1080,3 +1080,37 @@ input[type="date"] {
 .when-choose-fiaa.active .product-list button .spans {
   display: none;
 }
+/* .pricing-box {
+  position: relative;
+  width: 52.3rem;
+  height: 7.8rem;
+  background: #fff7db 0% 0% no-repeat padding-box;
+  box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
+  border: 0.05rem solid #840200;
+  border-radius: 5rem;
+}
+.pricing-name-box {
+  position: absolute;
+  top: 1.1rem;
+  right: 2.6rem;
+  width: 33.3rem;
+  height: 2.8rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.05rem solid #901b17;
+  border-radius: 0.7rem;
+}
+.numbering-box {
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #fdc53a;
+  top: 0.58rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nbr {
+  font-size: 1.8rem;
+  color: white;
+} */
