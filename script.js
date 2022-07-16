@@ -61,3 +61,9 @@ function displayProduct() {
   const displayPbtn = document.querySelector(".when-choose-fiaa");
   displayPbtn.classList.toggle("active");
 }
+function displayAsnafFiaa1() {
+  const displayFiaaProduct = document.querySelector(".asnaf-fiaa1");
+  const colorFiaaBtn = document.querySelector(".fiaa1");
+  displayFiaaProduct.classList.toggle("active");
+  colorFiaaBtn.classList.toggle("active");
+}

@@ -879,7 +879,7 @@ input[type="date"] {
   align-items: center;
   margin-top: 2.5rem;
 }
-.fiaa {
+.fiaat button {
   position: relative;
   width: 10.9rem;
   height: 4.1rem;
@@ -891,7 +891,7 @@ input[type="date"] {
   align-self: center;
   transition: 0.5s background;
 }
-.fiaa:hover {
+.fiaat button:hover {
   background-color: #fdc53a;
 }
 .fiaat button div {
@@ -970,17 +970,24 @@ input[type="date"] {
   width: 1.4rem;
   height: 1.4rem;
 }
-.gg {
+.asnaf-fiaa1 {
+  visibility: hidden;
   overflow-y: scroll;
   height: 54rem;
   width: 29rem;
+}
+.asnaf-fiaa1.active {
+  visibility: visible;
+}
+.fiaa1.active {
+  background-color: #fdc53a;
 }
 .product-list {
   position: absolute;
   top: 3rem;
   left: -0.7rem;
 }
-.gg::-webkit-scrollbar {
+.asnaf-fiaa1::-webkit-scrollbar {
   display: none;
 }
 .product-list button {
