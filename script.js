@@ -57,3 +57,7 @@ function searchButton() {
   const searchBtn = document.querySelector(".divv");
   searchBtn.classList.toggle("active");
 }
+function displayProduct() {
+  const displayPbtn = document.querySelector(".when-choose-fiaa");
+  displayPbtn.classList.toggle("active");
+}
