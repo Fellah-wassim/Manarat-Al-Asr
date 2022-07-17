@@ -67,3 +67,19 @@ function displayAsnafFiaa1() {
   displayFiaaProduct.classList.toggle("active");
   colorFiaaBtn.classList.toggle("active");
 }
+function kamiaPlusOne() {
+  const val = document.getElementById("kamia").value;
+  if (val < 99) document.getElementById("kamia").value++;
+  if (val < 9) {
+    document.getElementById("kamia").value =
+      "0" + document.getElementById("kamia").value++;
+  }
+}
+function kamiaMinusOne() {
+  const val = document.getElementById("kamia").value;
+  if (val > 1) document.getElementById("kamia").value--;
+  if (val < 11) {
+    document.getElementById("kamia").value =
+      "0" + document.getElementById("kamia").value--;
+  }
+}
