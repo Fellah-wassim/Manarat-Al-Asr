@@ -1213,3 +1213,29 @@ input::-webkit-inner-spin-button {
   background-color: transparent;
   border: none;
 }
+.ijmali {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+  position: absolute;
+  top: 1.4rem;
+  left: 2.5rem;
+}
+.ijmali button {
+  border: none;
+  background-color: transparent;
+}
+.delete-icon {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.ijmali-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+}
