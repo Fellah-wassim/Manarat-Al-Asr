@@ -1080,7 +1080,7 @@ input[type="date"] {
 .when-choose-fiaa.active .product-list button .spans {
   display: none;
 }
-/* .pricing-box {
+.pricing-box {
   position: relative;
   width: 52.3rem;
   height: 7.8rem;
@@ -1113,4 +1113,103 @@ input[type="date"] {
 .nbr {
   font-size: 1.8rem;
   color: white;
-} */
+}
+.flex-list-pricing-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 1.8rem;
+  color: #282626;
+  top: 4.7rem;
+  right: 3.6rem;
+  gap: 4.6rem;
+}
+.kamia {
+  display: flex;
+  align-items: center;
+}
+.plus-button,
+.minus-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #fdc53a 0% 0% no-repeat padding-box;
+  border: 0.05rem solid #ffffff;
+  border-radius: 5rem;
+}
+.plus-button {
+}
+.kamia-input {
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  width: 2.3rem;
+  font-size: 1.8rem;
+  color: #282626;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.wi7da {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.wi7da select {
+  text-align: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(IMG/Path\ 19.png) no-repeat; /* Add custom arrow */
+  background-color: #ffffff;
+  background-position: 5%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #282626;
+  padding-left: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.khasm {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-direction: row-reverse;
+}
+.nissba,
+.oumla {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #282626;
+}
+.khasm select {
+  text-align: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(IMG/Path\ 23.png) no-repeat; /* Add custom arrow */
+  background-color: #ffffff;
+  background-position: 5%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #282626;
+  padding-left: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
