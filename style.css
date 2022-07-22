@@ -518,7 +518,7 @@ input:focus::-webkit-input-placeholder {
 }
 .pages {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.9rem;
 }
 .header-title-page2 {
   position: absolute;
