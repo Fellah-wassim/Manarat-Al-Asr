@@ -14,10 +14,10 @@ body {
   font-weight: 400;
   color: #555;
 }
-.container {
+/* .container {
   width: fit-content;
   margin: auto;
-}
+} */
 .header {
   position: relative;
   max-width: 133rem;
@@ -938,7 +938,7 @@ input[type="date"] {
 .list-display {
   position: absolute;
   top: 6.4rem;
-  left: 2.2rem;
+  left: 1rem;
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -1057,7 +1057,7 @@ input[type="date"] {
 .when-choose-fiaa.active .product-list {
   position: absolute;
   top: 3rem;
-  left: -16px;
+  left: -8px;
   display: grid;
   grid-template-columns: repeat(3, 8.3rem);
 }

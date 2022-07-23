@@ -1,6 +1,7 @@
 /*****************************/
 /* MEDIA FOR SMALLER DESKTOP*/
 /*****************************/
+
 @media (max-width: 83em) {
   html {
     /* font-size: 50%; */
