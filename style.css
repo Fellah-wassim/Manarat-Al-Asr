@@ -6,19 +6,22 @@
 }
 html {
   font-size: 62.5%;
+  text-align: center;
 }
 body {
   font-family: "Tajawal", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
-  max-width: 133rem;
-  margin: 0 auto;
 }
-
+.container {
+  width: fit-content;
+  margin: auto;
+}
 .header {
   position: relative;
   max-width: 133rem;
+  width: 133rem;
   height: 7.5rem;
   margin: 0 auto;
   margin-top: 2rem;
@@ -519,6 +522,10 @@ input:focus::-webkit-input-placeholder {
 .pages {
   display: flex;
   gap: 1.9rem;
+}
+.logo-svg {
+  width: 15.8676rem;
+  height: 66.191;
 }
 .header-title-page2 {
   position: absolute;
