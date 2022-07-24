@@ -14,15 +14,15 @@ body {
   font-weight: 400;
   color: #555;
 }
-/* .container {
+.container {
   width: fit-content;
-  margin: auto;
-} */
+  margin: 0 auto;
+}
 .header {
   position: relative;
   max-width: 145rem;
-  width: 97vw;
-  height: 7.5rem;
+  width: 145rem;
+  height: 6.5rem;
   margin-top: 0.5rem;
   border-radius: 0.7rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
@@ -560,7 +560,6 @@ input:focus::-webkit-input-placeholder {
 .page2-box21 {
   position: absolute;
   top: 29rem;
-  left: 32.5rem;
   width: 55.3rem;
   height: 37.5rem;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -887,7 +886,7 @@ input[type="date"] {
 }
 .fiaat button {
   position: relative;
-  width: 10.9rem;
+  width: 12.9rem;
   height: 4.1rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem#00000029;
@@ -937,7 +936,7 @@ input[type="date"] {
 .list-display {
   position: absolute;
   top: 6.4rem;
-  left: 1rem;
+  left: 2rem;
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -980,7 +979,7 @@ input[type="date"] {
   visibility: hidden;
   overflow-y: scroll;
   height: 54rem;
-  width: 29rem;
+  width: 30rem;
 }
 .asnaf-fiaa1.active {
   visibility: visible;
@@ -998,7 +997,7 @@ input[type="date"] {
 }
 .product-list button {
   position: relative;
-  width: 26.8rem;
+  width: 29.8rem;
   min-height: 4rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.1rem 0.4rem 0.6rem#00000029;
