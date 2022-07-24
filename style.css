@@ -20,11 +20,10 @@ body {
 } */
 .header {
   position: relative;
-  max-width: 133rem;
-  width: 133rem;
+  max-width: 145rem;
+  width: 97vw;
   height: 7.5rem;
-  margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   border-radius: 0.7rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.5rem 0.6rem #00000029;
@@ -283,9 +282,9 @@ body {
 /* End Tool Tips return */
 
 .pages {
-  margin-top: 2rem;
-  max-width: 133rem;
-  margin: 2rem auto;
+  margin-top: 1rem;
+  max-width: 140rem;
+  width: 95vw;
   position: relative;
 }
 /* .page1 {
@@ -296,7 +295,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 31.6rem;
+  width: 34.6rem;
   height: 2.9rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
@@ -314,7 +313,7 @@ body {
   font-family: "Tajawal", sans-serif;
   font-size: 1.4rem;
   position: relative;
-  width: 30.9rem;
+  width: 33.9rem;
   height: 10rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.5rem 0.6rem #00000029;
@@ -356,7 +355,7 @@ input:focus::-webkit-input-placeholder {
   position: relative;
   top: 4rem;
   left: 0.3rem;
-  width: 30.9rem;
+  width: 33.9rem;
   height: 52.5rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
@@ -532,7 +531,7 @@ input:focus::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 52.8rem;
+  width: 55.8rem;
   height: 2.9rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
@@ -550,7 +549,7 @@ input:focus::-webkit-input-placeholder {
   position: relative;
   top: 2.2rem;
   margin-left: 0.3rem;
-  width: 52.3rem;
+  width: 55.3rem;
   height: 25rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0 0.4rem 0.6rem #00000029;
@@ -562,7 +561,7 @@ input:focus::-webkit-input-placeholder {
   position: absolute;
   top: 29rem;
   left: 32.5rem;
-  width: 52.3rem;
+  width: 55.3rem;
   height: 37.5rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
@@ -746,7 +745,7 @@ input[type="date"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30.2rem;
+  width: 33.2rem;
   height: 3rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
@@ -764,7 +763,7 @@ input[type="date"] {
   position: relative;
   top: 2.2rem;
   margin-left: 0.2rem;
-  width: 29.8rem;
+  width: 32.8rem;
   height: 64.3rem;
   background: #ffff 0% 0% no-repeat padding-box;
   box-shadow: 0 0.4rem 0.6rem #00000029;
@@ -776,7 +775,7 @@ input[type="date"] {
   position: absolute;
   top: 1.7rem;
   right: 1.4rem;
-  width: 22.4rem;
+  width: 25.4rem;
   height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
@@ -823,7 +822,7 @@ input[type="date"] {
   position: absolute;
   top: 1.7rem;
   right: 1.4rem;
-  width: 22.4rem;
+  width: 25.4rem;
   height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
@@ -852,7 +851,7 @@ input[type="date"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14.1rem;
+  width: 17.1rem;
   height: 3rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
@@ -868,7 +867,7 @@ input[type="date"] {
 }
 .page4-box2 {
   position: absolute;
-  width: 13.6rem;
+  width: 16.6rem;
   height: 64.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
