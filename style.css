@@ -17,13 +17,13 @@ body {
 .container {
   width: fit-content;
   margin: 0 auto;
+  padding-top: 0.5rem;
 }
 .header {
   position: relative;
   max-width: 145rem;
   width: 145rem;
   height: 6.5rem;
-  margin-top: 0.5rem;
   border-radius: 0.7rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.5rem 0.6rem #00000029;
