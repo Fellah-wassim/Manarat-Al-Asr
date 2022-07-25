@@ -32,7 +32,7 @@ body {
   opacity: 1;
 }
 .profile {
-  top: 1.5rem;
+  top: 1rem;
   left: 1.7rem;
   position: absolute;
   display: flex;
@@ -55,7 +55,7 @@ body {
   height: 13px;
   background: #5aed72 0% 0% no-repeat padding-box;
   border-radius: 5rem;
-  top: 4.58rem;
+  top: 4.1rem;
   left: 1.8rem;
 }
 .profile-txt {
@@ -143,7 +143,7 @@ body {
   display: flex;
   gap: 1.9rem;
   left: 19.6rem;
-  top: 2.6rem;
+  top: 2.2rem;
 }
 .opt {
   width: 2.1rem;
@@ -165,7 +165,7 @@ body {
   flex-direction: row;
   gap: 0.3rem;
   left: 56.5rem;
-  top: 1.6rem;
+  top: 1.2rem;
 }
 .box {
   position: relative;
@@ -198,8 +198,11 @@ body {
 }
 .logo {
   position: absolute;
-  left: 102.6rem;
-  top: 0.3rem;
+  left: 110.6rem;
+  top: 0.6rem;
+}
+.logo img {
+  width: 12rem;
 }
 /* Tool Tips full screen */
 .tooltipText-fullscreen {
@@ -218,7 +221,7 @@ body {
 .tooltipText-fullscreen::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 57%;
   top: 100%;
   transform: translateX(-50%);
   border: 0.8rem solid;
@@ -237,7 +240,7 @@ body {
   border: none;
   cursor: pointer;
   right: 6.7rem;
-  top: 2.68rem;
+  top: 2.2rem;
   transition: all 0.3s;
 }
 .left-arrow-btn {
@@ -246,10 +249,25 @@ body {
   border: none;
   cursor: pointer;
   right: 1.1rem;
-  top: 2.4rem;
+  top: 2rem;
   transition: all 0.3s;
 }
-
+.full-screen-img {
+  width: 2.2rem;
+  height: 2rem;
+}
+.left-arrow-btn-img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.search-by-name-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#SvgjsG1013 {
+  width: 1.2rem;
+  height: 1.2rem;
+}
 /* Tool Tips return */
 .tooltipText-return {
   position: absolute;
@@ -374,30 +392,26 @@ input:focus::-webkit-input-placeholder {
 .lines {
   display: flex;
   flex-direction: column;
+  margin-left: 2.5rem;
 }
 .line-one {
   top: 10.7rem;
-  left: 1.2rem;
   position: absolute;
 }
 .line-two {
   top: 15.7rem;
-  left: 1.2rem;
   position: absolute;
 }
 .line-three {
   top: 20.7rem;
-  left: 1.2rem;
   position: absolute;
 }
 .line-four {
   top: 25.7rem;
-  left: 1.2rem;
   position: absolute;
 }
 .line-five {
   top: 30.7rem;
-  left: 1.2rem;
   position: absolute;
 }
 .line-one-t,
@@ -450,7 +464,7 @@ input:focus::-webkit-input-placeholder {
 .total-pricing {
   position: absolute;
   top: 35rem;
-  left: 0.5rem;
+  left: 2.5rem;
   width: 29.7rem;
   height: 3.9rem;
   background: #fff7db 0% 0% no-repeat padding-box;
@@ -487,7 +501,7 @@ input:focus::-webkit-input-placeholder {
 .sidad-btn {
   position: absolute;
   top: 45rem;
-  left: 1.9rem;
+  left: 2.9rem;
   width: 27.1rem;
   height: 4.9rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
@@ -522,10 +536,7 @@ input:focus::-webkit-input-placeholder {
   display: flex;
   gap: 1.9rem;
 }
-.logo-svg {
-  width: 15.8676rem;
-  height: 66.191;
-}
+
 .header-title-page2 {
   position: absolute;
   display: flex;
@@ -689,7 +700,7 @@ input[type="date"] {
   margin-right: 1.1rem;
 }
 .amil-input {
-  width: 44.7rem;
+  width: 45.7rem;
   height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
@@ -720,7 +731,7 @@ input[type="date"] {
   border-radius: 5rem;
   position: absolute;
   top: 20.3rem;
-  left: 1.2rem;
+  left: 2.6rem;
   transition: all 1s;
   cursor: pointer;
 }
