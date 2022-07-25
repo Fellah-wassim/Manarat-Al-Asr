@@ -28,7 +28,7 @@ body {
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.5rem 0.6rem #00000029;
   border: 0.4000000059604645px solid #840100;
-  border-radius: 0.7rem;
+  border-radius: 1rem;
   opacity: 1;
 }
 .profile {
@@ -172,9 +172,9 @@ body {
   width: 11rem;
   height: 4rem;
   background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0.4rem 0.5rem 0.6rem #00000029;
+  /* box-shadow: 0.4rem 0.5rem 0.6rem #00000029; */
   border: 0.05rem solid #840100;
-  border-radius: 5rem;
+  border-radius: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -318,7 +318,7 @@ body {
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1rem;
   font-size: 1.8rem;
   text-align: left;
   font: normal normal medium 1.8rem/2.5rem Tajawal;
@@ -469,7 +469,7 @@ input:focus::-webkit-input-placeholder {
   height: 3.9rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   border: 0.030000001192092896rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1.5rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -501,7 +501,7 @@ input:focus::-webkit-input-placeholder {
 .sidad-btn {
   position: absolute;
   top: 45rem;
-  left: 2.9rem;
+  left: 3.4rem;
   width: 27.1rem;
   height: 4.9rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
@@ -547,7 +547,7 @@ input:focus::-webkit-input-placeholder {
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1rem;
   font-size: 1.8rem;
   text-align: left;
   font: normal normal medium 1.8rem/2.5rem Tajawal;
@@ -760,7 +760,7 @@ input[type="date"] {
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1rem;
   font-size: 1.8rem;
   text-align: left;
   font: normal normal medium 1.8rem/2.5rem Tajawal;
@@ -793,7 +793,7 @@ input[type="date"] {
   font-size: 1.4rem;
   font-weight: 700;
   color: #282626;
-  border-radius: 5rem;
+  border-radius: 1.5rem;
   padding-right: 1.5rem;
   text-align: right;
 }
@@ -866,7 +866,7 @@ input[type="date"] {
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1rem;
   font-size: 1.8rem;
   text-align: left;
   font: normal normal medium 1.8rem/2.5rem Tajawal;
@@ -902,7 +902,7 @@ input[type="date"] {
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1.5rem;
   cursor: pointer;
   align-self: center;
   transition: 0.5s background;
@@ -1013,7 +1013,7 @@ input[type="date"] {
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.1rem 0.4rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 1.5rem;
   cursor: pointer;
   transition: 0.5s background;
   margin-bottom: 1.4rem;

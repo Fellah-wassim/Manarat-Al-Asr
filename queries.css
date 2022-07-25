@@ -70,8 +70,13 @@
     font-size: 38%;
   }
 }
-@media (max-width: 50rem) {
-  .container {
-    display: none;
+@media (max-width: 56rem) {
+  html {
+    font-size: 36%;
+  }
+}
+@media (max-width: 53rem) {
+  html {
+    font-size: 34%;
   }
 }
