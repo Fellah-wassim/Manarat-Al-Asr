@@ -23,7 +23,7 @@ body {
   position: relative;
   max-width: 145rem;
   width: 145rem;
-  height: 6.5rem;
+  height: 8.64vh;
   border-radius: 0.7rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.5rem 0.6rem #00000029;
@@ -32,7 +32,7 @@ body {
   opacity: 1;
 }
 .profile {
-  top: 1rem;
+  top: 1.3vh;
   left: 1.7rem;
   position: absolute;
   display: flex;
@@ -45,17 +45,17 @@ body {
 }
 .profile-img {
   width: 4.4rem;
-  height: 4.4rem;
+  height: 5.81vh;
   border-radius: 5rem;
   border: 0.05rem solid #840200;
 }
 .online {
   position: absolute;
   width: 13px;
-  height: 13px;
+  height: 1.72vh;
   background: #5aed72 0% 0% no-repeat padding-box;
   border-radius: 5rem;
-  top: 4.1rem;
+  top: 5.45vh;
   left: 1.8rem;
 }
 .profile-txt {
@@ -83,71 +83,16 @@ body {
   flex-direction: column;
 }
 
-.menu {
-  position: relative;
-  top: 6rem;
-  left: 2rem;
-  z-index: 99;
-  width: 15.8rem;
-  height: 25rem;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0rem 0.3rem 0.6rem #00000029;
-  border: 0.1rem solid #840100;
-  border-radius: 1.1rem;
-  visibility: hidden;
-  opacity: 0;
-}
-.menu.active {
-  visibility: visible;
-  opacity: 1;
-}
-.menu-separition {
-  position: absolute;
-  width: 15.6rem;
-  border: 0.1rem solid #840100;
-  top: 14rem;
-}
-.ul-menu {
-  position: absolute;
-  top: 1.2rem;
-}
-.ul-menu2 {
-  position: absolute;
-  top: 15rem;
-}
-.menu a {
-  padding-left: 1.6rem;
-  height: 3rem;
-  width: 15.6rem;
-  text-decoration: none;
-  font-size: 1.4rem;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  transition: all 0.3s;
-}
-.menu a:hover {
-  background-color: #ffda7c;
-}
-.menu ul {
-  list-style: none;
-}
-
-.menu img {
-  margin-right: 0.6rem;
-  width: 1.6rem;
-  height: 1.6rem;
-}
 .notif-darkmode {
   position: absolute;
   display: flex;
   gap: 1.9rem;
   left: 19.6rem;
-  top: 2.2rem;
+  top: 2.92vh;
 }
 .opt {
   width: 2.1rem;
-  height: 2.1rem;
+  height: 2.7vh;
   transition: all 0.3s;
 }
 .opt:hover {
@@ -165,12 +110,12 @@ body {
   flex-direction: row;
   gap: 0.3rem;
   left: 56.5rem;
-  top: 1.2rem;
+  top: 1.59vh;
 }
 .box {
   position: relative;
   width: 11rem;
-  height: 4rem;
+  height: 5.31vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   /* box-shadow: 0.4rem 0.5rem 0.6rem #00000029; */
   border: 0.05rem solid #840100;
@@ -199,7 +144,7 @@ body {
 .logo {
   position: absolute;
   left: 110.6rem;
-  top: 0.6rem;
+  top: 0.79vh;
 }
 .logo img {
   width: 12rem;
@@ -240,7 +185,7 @@ body {
   border: none;
   cursor: pointer;
   right: 6.7rem;
-  top: 2.2rem;
+  top: 2.92vh;
   transition: all 0.3s;
 }
 .left-arrow-btn {
@@ -249,24 +194,24 @@ body {
   border: none;
   cursor: pointer;
   right: 1.1rem;
-  top: 2rem;
+  top: 2.65vh;
   transition: all 0.3s;
 }
 .full-screen-img {
   width: 2.2rem;
-  height: 2rem;
+  height: 2.65vh;
 }
 .left-arrow-btn-img {
   width: 2.5rem;
-  height: 2.5rem;
+  height: 3.32vh;
 }
 .search-by-name-img {
   width: 1.5rem;
-  height: 1.5rem;
+  height: 2vh;
 }
 #SvgjsG1013 {
   width: 1.2rem;
-  height: 1.2rem;
+  height: 1.6vh;
 }
 /* Tool Tips return */
 .tooltipText-return {
@@ -300,7 +245,7 @@ body {
 /* End Tool Tips return */
 
 .pages {
-  margin-top: 1rem;
+  margin-top: 1.3vh;
   max-width: 140rem;
   width: 95vw;
   position: relative;
@@ -314,7 +259,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 34.6rem;
-  height: 2.9rem;
+  height: 3.85vh;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -332,12 +277,12 @@ body {
   font-size: 1.4rem;
   position: relative;
   width: 33.9rem;
-  height: 10rem;
+  height: 13.29vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.5rem 0.6rem #00000029;
   border: 0.020000000298023224rem solid #840200;
   border-radius: 0.7rem;
-  top: 2.2rem;
+  top: 2.92vh;
   left: 0.3rem;
   z-index: 1;
   background: url(IMG/edit.png) no-repeat;
@@ -358,7 +303,7 @@ input:focus {
   font-family: "Tajawal", sans-serif;
   position: absolute;
   font-size: 1.4rem;
-  top: 2rem;
+  top: 2.65vh;
   right: 1rem;
   z-index: 3;
   letter-spacing: 0;
@@ -371,10 +316,10 @@ input:focus::-webkit-input-placeholder {
 }
 .invoice {
   position: relative;
-  top: 4rem;
+  top: 5.31vh;
   left: 0.3rem;
   width: 33.9rem;
-  height: 52.5rem;
+  height: 69.81vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
   border: 0.020000000298023224rem solid #840200;
@@ -386,7 +331,7 @@ input:focus::-webkit-input-placeholder {
   letter-spacing: 0px;
   color: #282626;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 3.98vh;
   font-weight: 600;
 }
 .lines {
@@ -395,23 +340,23 @@ input:focus::-webkit-input-placeholder {
   margin-left: 2.5rem;
 }
 .line-one {
-  top: 10.7rem;
+  top: 14.22vh;
   position: absolute;
 }
 .line-two {
-  top: 15.7rem;
+  top: 20.87vh;
   position: absolute;
 }
 .line-three {
-  top: 20.7rem;
+  top: 27.52vh;
   position: absolute;
 }
 .line-four {
-  top: 25.7rem;
+  top: 34.17vh;
   position: absolute;
 }
 .line-five {
-  top: 30.7rem;
+  top: 40.82vh;
   position: absolute;
 }
 .line-one-t,
@@ -463,10 +408,10 @@ input:focus::-webkit-input-placeholder {
 }
 .total-pricing {
   position: absolute;
-  top: 35rem;
+  top: 46.54vh;
   left: 2.5rem;
   width: 29.7rem;
-  height: 3.9rem;
+  height: 5.18vh;
   background: #fff7db 0% 0% no-repeat padding-box;
   border: 0.030000001192092896rem solid #840200;
   border-radius: 1.5rem;
@@ -487,7 +432,7 @@ input:focus::-webkit-input-placeholder {
 .total-price {
   background-color: #ffffff;
   width: 7rem;
-  height: 2.4rem;
+  height: 3.19vh;
   border-radius: 5rem;
   display: flex;
   justify-content: center;
@@ -500,10 +445,10 @@ input:focus::-webkit-input-placeholder {
 }
 .sidad-btn {
   position: absolute;
-  top: 45rem;
+  top: 59.84vh;
   left: 3.4rem;
   width: 27.1rem;
-  height: 4.9rem;
+  height: 6.51vh;
   background: #fdc53a 0% 0% no-repeat padding-box;
   border: 0.020000000298023224rem solid #840100;
   border-radius: 5rem;
@@ -543,7 +488,7 @@ input:focus::-webkit-input-placeholder {
   justify-content: center;
   align-items: center;
   width: 55.8rem;
-  height: 2.9rem;
+  height: 3.85vh;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -558,10 +503,10 @@ input:focus::-webkit-input-placeholder {
 }
 .page2-box2 {
   position: relative;
-  top: 2.2rem;
+  top: 2.92vh;
   margin-left: 0.3rem;
   width: 55.3rem;
-  height: 25rem;
+  height: 33.24vh;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0 0.4rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #830100;
@@ -570,9 +515,9 @@ input:focus::-webkit-input-placeholder {
 }
 .page2-box21 {
   position: absolute;
-  top: 29rem;
+  top: 38.3vh;
   width: 55.3rem;
-  height: 37.5rem;
+  height: 49.86vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
   border: 0.020000000298023224rem solid #830100;
@@ -593,7 +538,7 @@ input:focus::-webkit-input-placeholder {
 .istimara-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 2.5rem;
+  margin-top: 3.32vh;
 }
 .grid1,
 .grid2 {
@@ -614,7 +559,7 @@ input:focus::-webkit-input-placeholder {
   position: relative;
   font-family: "Tajawal", sans-serif;
   width: 24rem;
-  height: 3.3rem;
+  height: 4.38vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -634,13 +579,13 @@ input:focus::-webkit-input-placeholder {
   font-weight: 700;
   color: #282626;
   position: absolute;
-  top: 0.5rem;
+  top: 0.66vh;
   right: 1.5rem;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
   width: 5rem;
-  height: 3.3rem;
+  height: 4.38vh;
   position: absolute;
   left: 1rem;
 }
@@ -663,7 +608,7 @@ input[type="date"] {
   align-self: flex-end;
   margin-right: 1.1rem;
   width: 24rem;
-  height: 3.3rem;
+  height: 4.38vh;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
   border-radius: 5rem;
@@ -687,7 +632,7 @@ input[type="date"] {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 18rem;
+  top: 23.93vh;
   right: 1.3rem;
 }
 .amil-label {
@@ -701,7 +646,7 @@ input[type="date"] {
 }
 .amil-input {
   width: 45.7rem;
-  height: 3.3rem;
+  height: 4.38vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -724,13 +669,13 @@ input[type="date"] {
 }
 .add-amil-btn {
   width: 4rem;
-  height: 3.3rem;
+  height: 4.38vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
   border-radius: 5rem;
   position: absolute;
-  top: 20.3rem;
+  top: 27vh;
   left: 2.6rem;
   transition: all 1s;
   cursor: pointer;
@@ -742,12 +687,12 @@ input[type="date"] {
 }
 .add-amil-btn img {
   width: 1.4rem;
-  height: 1.4rem;
+  height: 1.86vh;
 }
 .add-amil-btn:hover img {
   content: url(IMG/add-user-two.png);
   width: 2rem;
-  height: 2rem;
+  height: 2.65vh;
   margin-top: 0.4rem;
 }
 .header-title-page3 {
@@ -756,7 +701,7 @@ input[type="date"] {
   justify-content: center;
   align-items: center;
   width: 33.2rem;
-  height: 3rem;
+  height: 3.98vh;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -771,10 +716,10 @@ input[type="date"] {
 }
 .page3-box2 {
   position: relative;
-  top: 2.2rem;
+  top: 2.92vh;
   margin-left: 0.2rem;
   width: 32.8rem;
-  height: 64.3rem;
+  height: 85.5vh;
   background: #ffff 0% 0% no-repeat padding-box;
   box-shadow: 0 0.4rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #830100;
@@ -783,10 +728,10 @@ input[type="date"] {
 }
 .search-by-name {
   position: absolute;
-  top: 1.7rem;
+  top: 2.26vh;
   right: 1.4rem;
   width: 25.4rem;
-  height: 3.3rem;
+  height: 4.38vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -802,15 +747,15 @@ input[type="date"] {
   font-weight: 700;
   color: #282626;
   position: absolute;
-  top: 0.5rem;
+  top: 0.66vh;
   right: 1.5rem;
 }
 .search-by-name-btn {
   position: absolute;
-  top: 2rem;
+  top: 2.65vh;
   left: 1.5rem;
   width: 3rem;
-  height: 3rem;
+  height: 3.98vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -830,10 +775,10 @@ input[type="date"] {
 .search-by-barcode {
   visibility: hidden;
   position: absolute;
-  top: 1.7rem;
+  top: 2.26vh;
   right: 1.4rem;
   width: 25.4rem;
-  height: 3.3rem;
+  height: 4.38vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -849,7 +794,7 @@ input[type="date"] {
   font-weight: 700;
   color: #282626;
   position: absolute;
-  top: 0.5rem;
+  top: 0.66vh;
   right: 1.5rem;
 }
 .divv.active .search-by-barcode {
@@ -862,7 +807,7 @@ input[type="date"] {
   justify-content: center;
   align-items: center;
   width: 17.1rem;
-  height: 3rem;
+  height: 3.98vh;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -878,12 +823,12 @@ input[type="date"] {
 .page4-box2 {
   position: absolute;
   width: 16.6rem;
-  height: 64.3rem;
+  height: 85.5vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.020000000298023224rem solid #840200;
   border-radius: 0.7rem;
-  top: 2.2rem;
+  top: 2.92vh;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -893,12 +838,12 @@ input[type="date"] {
   flex-direction: column;
   gap: 1.5rem;
   align-items: center;
-  margin-top: 2.5rem;
+  margin-top: 3.32vh;
 }
 .fiaat button {
   position: relative;
   width: 12.9rem;
-  height: 4.1rem;
+  height: 5.45vh;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
@@ -913,9 +858,9 @@ input[type="date"] {
 .fiaat button div {
   position: absolute;
   right: 0.46rem;
-  top: 0.7rem;
+  top: 0.93vh;
   width: 2.8rem;
-  height: 2.6rem;
+  height: 3.45vh;
   background: #ffffff;
   border: 0.020000000298023224rem solid #840100;
   border-radius: 7rem;
@@ -946,7 +891,7 @@ input[type="date"] {
 }
 .list-display {
   position: absolute;
-  top: 6.4rem;
+  top: 8.51vh;
   left: 2rem;
   display: flex;
   align-items: center;
@@ -960,13 +905,13 @@ input[type="date"] {
 }
 .chabaka-icon {
   width: 1.4rem;
-  height: 1.4rem;
+  height: 1.86vh;
 }
 .chabaka-display {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 6.4rem;
+  top: 8.51vh;
   left: 2.2rem;
   display: flex;
   align-items: center;
@@ -984,12 +929,12 @@ input[type="date"] {
 }
 .list-icon {
   width: 1.4rem;
-  height: 1.4rem;
+  height: 1.86;
 }
 .asnaf-fiaa1 {
   visibility: hidden;
   overflow-y: scroll;
-  height: 54rem;
+  height: 71.8vh;
   width: 30rem;
 }
 .asnaf-fiaa1.active {
@@ -1000,7 +945,7 @@ input[type="date"] {
 }
 .product-list {
   position: absolute;
-  top: 3rem;
+  top: 3.98vh;
   left: -0.7rem;
 }
 .asnaf-fiaa1::-webkit-scrollbar {
@@ -1009,7 +954,7 @@ input[type="date"] {
 .product-list button {
   position: relative;
   width: 29.8rem;
-  min-height: 4rem;
+  min-height: 5.31vh;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.1rem 0.4rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
@@ -1028,7 +973,7 @@ input[type="date"] {
 .product-name {
   position: absolute;
   text-align: right;
-  top: 0.9rem;
+  top: 01.19vh;
   right: 4.8rem;
   font-size: 1.4rem;
   font-weight: 600;
@@ -1039,9 +984,9 @@ input[type="date"] {
 .product-list button .color {
   position: absolute;
   right: 1.3rem;
-  top: 0.7rem;
+  top: 0.93vh;
   width: 2.8rem;
-  height: 2.6rem;
+  height: 3.45vh;
   background: #ffffff;
   border: 0.020000000298023224rem solid #840100;
   border-radius: 7rem;
@@ -1052,7 +997,7 @@ input[type="date"] {
 .spans {
   position: absolute;
   left: 2.2rem;
-  top: 01rem;
+  top: 1.32vh;
   display: flex;
   align-items: center;
   font-size: 1.4rem;
@@ -1065,14 +1010,14 @@ input[type="date"] {
 
 .when-choose-fiaa.active .product-list {
   position: absolute;
-  top: 3rem;
+  top: 3.98vh;
   left: -8px;
   display: grid;
   grid-template-columns: repeat(3, 8.3rem);
 }
 .when-choose-fiaa.active .product-list button {
   width: 9rem;
-  height: 8.9rem;
+  height: 11.83vh;
   border-radius: 0.7rem;
   transition: none;
   margin-left: 0.3rem;
@@ -1080,7 +1025,7 @@ input[type="date"] {
   transition: 0.5s background;
 }
 .when-choose-fiaa.active .product-name {
-  top: 0.9rem;
+  top: 1.19vh;
   right: 0rem;
   font-size: 1.4rem;
   font-weight: 600;
@@ -1099,7 +1044,7 @@ input[type="date"] {
 .pricing-box {
   position: relative;
   width: 52.3rem;
-  height: 7.8rem;
+  height: 10.37vh;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -1107,10 +1052,10 @@ input[type="date"] {
 }
 .pricing-name-box {
   position: absolute;
-  top: 1.1rem;
+  top: 1.46vh;
   right: 2.6rem;
   width: 33.3rem;
-  height: 2.8rem;
+  height: 3.72vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.05rem solid #901b17;
   border-radius: 0.7rem;
@@ -1118,9 +1063,9 @@ input[type="date"] {
 .numbering-box {
   position: absolute;
   width: 1.6rem;
-  height: 1.6rem;
+  height: 2.12;
   background-color: #fdc53a;
-  top: 0.58rem;
+  top: 0.77vh;
   right: 1rem;
   display: flex;
   justify-content: center;
@@ -1137,7 +1082,7 @@ input[type="date"] {
   flex-direction: row-reverse;
   font-size: 1.8rem;
   color: #282626;
-  top: 4.7rem;
+  top: 6.25vh;
   right: 3.6rem;
   gap: 4.6rem;
 }
@@ -1152,7 +1097,7 @@ input[type="date"] {
   align-items: center;
   justify-content: center;
   width: 1.8rem;
-  height: 1.8rem;
+  height: 2.39vh;
   background: #fdc53a 0% 0% no-repeat padding-box;
   border: 0.05rem solid #ffffff;
   border-radius: 5rem;
@@ -1234,7 +1179,7 @@ input::-webkit-inner-spin-button {
   align-items: center;
   gap: 2.8rem;
   position: absolute;
-  top: 1.4rem;
+  top: 1.86vh;
   left: 2.5rem;
 }
 .ijmali button {
@@ -1243,7 +1188,7 @@ input::-webkit-inner-spin-button {
 }
 .delete-icon {
   width: 2.2rem;
-  height: 2.2rem;
+  height: 2.92vh;
 }
 .ijmali-txt {
   display: flex;
