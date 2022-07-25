@@ -80,3 +80,18 @@
     font-size: 34%;
   }
 }
+@media (max-width: 50rem) {
+  html {
+    font-size: 32%;
+  }
+}
+@media (max-width: 48rem) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 46rem) {
+  html {
+    font-size: 28%;
+  }
+}
