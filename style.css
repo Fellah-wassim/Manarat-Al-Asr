@@ -24,6 +24,7 @@ body {
   max-width: 145rem;
   width: 145rem;
   height: 8.64vh;
+  min-height: 7rem;
   border-radius: 0.7rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.5rem 0.6rem #00000029;
@@ -46,6 +47,7 @@ body {
 .profile-img {
   width: 4.4rem;
   height: 5.81vh;
+  min-height: 4rem;
   border-radius: 5rem;
   border: 0.05rem solid #840200;
 }
@@ -116,6 +118,7 @@ body {
   position: relative;
   width: 11rem;
   height: 5.31vh;
+  min-height: 4rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   /* box-shadow: 0.4rem 0.5rem 0.6rem #00000029; */
   border: 0.05rem solid #840100;
@@ -207,7 +210,7 @@ body {
 }
 .search-by-name-img {
   width: 1.5rem;
-  height: 2vh;
+  height: 1.5rem;
 }
 #SvgjsG1013 {
   width: 1.2rem;
@@ -260,6 +263,7 @@ body {
   align-items: center;
   width: 34.6rem;
   height: 3.85vh;
+  min-height: 3rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -489,6 +493,7 @@ input:focus::-webkit-input-placeholder {
   align-items: center;
   width: 55.8rem;
   height: 3.85vh;
+  min-height: 3rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -507,6 +512,7 @@ input:focus::-webkit-input-placeholder {
   margin-left: 0.3rem;
   width: 55.3rem;
   height: 33.24vh;
+  min-height: 26rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0 0.4rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #830100;
@@ -559,7 +565,7 @@ input:focus::-webkit-input-placeholder {
   position: relative;
   font-family: "Tajawal", sans-serif;
   width: 24rem;
-  height: 4.38vh;
+  height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -608,7 +614,7 @@ input[type="date"] {
   align-self: flex-end;
   margin-right: 1.1rem;
   width: 24rem;
-  height: 4.38vh;
+  height: 3.3rem;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
   border-radius: 5rem;
@@ -628,11 +634,14 @@ input[type="date"] {
 .select .option {
   text-align: right;
 }
+.flex {
+  display: flex;
+  margin-top: 3.32vh;
+}
 .amil-part {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 23.93vh;
   right: 1.3rem;
 }
 .amil-label {
@@ -646,7 +655,7 @@ input[type="date"] {
 }
 .amil-input {
   width: 45.7rem;
-  height: 4.38vh;
+  height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -669,17 +678,18 @@ input[type="date"] {
 }
 .add-amil-btn {
   width: 4rem;
-  height: 4.38vh;
+  height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
   border-radius: 5rem;
   position: absolute;
-  top: 27vh;
   left: 2.6rem;
   transition: all 1s;
   cursor: pointer;
+  margin-top: 3vh;
 }
+
 .add-amil-btn:hover {
   background: #892221 0% 0% no-repeat padding-box;
   display: flex;
@@ -702,6 +712,7 @@ input[type="date"] {
   align-items: center;
   width: 33.2rem;
   height: 3.98vh;
+  min-height: 3rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -731,7 +742,7 @@ input[type="date"] {
   top: 2.26vh;
   right: 1.4rem;
   width: 25.4rem;
-  height: 4.38vh;
+  height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -747,7 +758,7 @@ input[type="date"] {
   font-weight: 700;
   color: #282626;
   position: absolute;
-  top: 0.66vh;
+  top: 0.5rem;
   right: 1.5rem;
 }
 .search-by-name-btn {
@@ -755,7 +766,7 @@ input[type="date"] {
   top: 2.65vh;
   left: 1.5rem;
   width: 3rem;
-  height: 3.98vh;
+  height: 3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -778,7 +789,7 @@ input[type="date"] {
   top: 2.26vh;
   right: 1.4rem;
   width: 25.4rem;
-  height: 4.38vh;
+  height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
@@ -808,6 +819,7 @@ input[type="date"] {
   align-items: center;
   width: 17.1rem;
   height: 3.98vh;
+  min-height: 3rem;
   background: #fdc53a 0% 0% no-repeat padding-box;
   box-shadow: 0 0.2rem 0.6rem #00000029;
   border: 0.04000000059604645rem solid #840200;
@@ -842,8 +854,8 @@ input[type="date"] {
 }
 .fiaat button {
   position: relative;
-  width: 12.9rem;
-  height: 5.45vh;
+  width: 10.9rem;
+  height: 4.1rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
@@ -858,12 +870,12 @@ input[type="date"] {
 .fiaat button div {
   position: absolute;
   right: 0.46rem;
-  top: 0.93vh;
+  top: 0.7rem;
   width: 2.8rem;
-  height: 3.45vh;
+  height: 2.6rem;
   background: #ffffff;
   border: 0.020000000298023224rem solid #840100;
-  border-radius: 7rem;
+  border-radius: 1.1rem;
 }
 .fiaa-name {
   font-size: 1.4rem;
@@ -939,13 +951,14 @@ input[type="date"] {
 }
 .asnaf-fiaa1.active {
   visibility: visible;
+  outline: none;
 }
 .fiaa1.active {
   background-color: #fdc53a;
 }
 .product-list {
   position: absolute;
-  top: 3.98vh;
+  top: 3rem;
   left: -0.7rem;
 }
 .asnaf-fiaa1::-webkit-scrollbar {
@@ -953,8 +966,8 @@ input[type="date"] {
 }
 .product-list button {
   position: relative;
-  width: 29.8rem;
-  min-height: 5.31vh;
+  width: 26.8rem;
+  min-height: 4rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.1rem 0.4rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
@@ -973,7 +986,7 @@ input[type="date"] {
 .product-name {
   position: absolute;
   text-align: right;
-  top: 01.19vh;
+  top: 0.9rem;
   right: 4.8rem;
   font-size: 1.4rem;
   font-weight: 600;
@@ -984,12 +997,12 @@ input[type="date"] {
 .product-list button .color {
   position: absolute;
   right: 1.3rem;
-  top: 0.93vh;
+  top: 0.7rem;
   width: 2.8rem;
-  height: 3.45vh;
+  height: 2.6rem;
   background: #ffffff;
   border: 0.020000000298023224rem solid #840100;
-  border-radius: 7rem;
+  border-radius: 1.1rem;
 }
 .product-list button .SAR {
   margin-left: 0.3rem;
@@ -997,7 +1010,7 @@ input[type="date"] {
 .spans {
   position: absolute;
   left: 2.2rem;
-  top: 1.32vh;
+  top: 01rem;
   display: flex;
   align-items: center;
   font-size: 1.4rem;
@@ -1010,14 +1023,14 @@ input[type="date"] {
 
 .when-choose-fiaa.active .product-list {
   position: absolute;
-  top: 3.98vh;
+  top: 3rem;
   left: -8px;
   display: grid;
   grid-template-columns: repeat(3, 8.3rem);
 }
 .when-choose-fiaa.active .product-list button {
   width: 9rem;
-  height: 11.83vh;
+  height: 8.9rem;
   border-radius: 0.7rem;
   transition: none;
   margin-left: 0.3rem;
@@ -1025,7 +1038,7 @@ input[type="date"] {
   transition: 0.5s background;
 }
 .when-choose-fiaa.active .product-name {
-  top: 1.19vh;
+  top: 0.9rem;
   right: 0rem;
   font-size: 1.4rem;
   font-weight: 600;

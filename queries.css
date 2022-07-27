@@ -2,36 +2,47 @@
 /* MEDIA FOR SMALLER DESKTOP*/
 /*****************************/
 
-@media (max-width: 92rem) {
+@media (max-width: 99rem) {
   html {
     font-size: 60%;
   }
 }
-@media (max-width: 88rem) {
+@media (max-width: 94rem) {
   html {
     font-size: 58%;
   }
 }
-@media (max-width: 84rem) {
+@media (max-width: 91rem) {
   html {
     font-size: 56%;
   }
 }
-@media (max-width: 82rem) {
+@media (max-width: 88rem) {
   html {
     font-size: 54%;
   }
 }
-@media (max-width: 79rem) {
+@media (max-width: 85rem) {
   html {
     font-size: 52%;
   }
 }
-@media (max-width: 76rem) {
+@media (max-width: 82rem) {
   html {
     font-size: 50%;
   }
 }
+@media (max-width: 78rem) {
+  html {
+    font-size: 48%;
+  }
+}
+@media (max-width: 75rem) {
+  html {
+    font-size: 46%;
+  }
+}
+
 @media (max-width: 74rem) {
   html {
     font-size: 48%;
