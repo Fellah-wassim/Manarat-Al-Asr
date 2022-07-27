@@ -43,62 +43,50 @@
   }
 }
 
-@media (max-width: 74rem) {
-  html {
-    font-size: 48%;
-  }
-  .full-screen svg {
-    width: 1rem;
-    height: 1rem;
-  }
-  .tooltipText-return svg {
-    width: 1rem;
-    height: 1rem;
-  }
-}
-@media (max-width: 71rem) {
-  html {
-    font-size: 46%;
-  }
-}
-@media (max-width: 69rem) {
+@media (max-width: 72rem) {
   html {
     font-size: 44%;
   }
 }
-@media (max-width: 65rem) {
+@media (max-width: 69rem) {
   html {
     font-size: 42%;
   }
 }
-@media (max-width: 62rem) {
+
+@media (max-width: 66rem) {
   html {
     font-size: 40%;
   }
 }
-@media (max-width: 58rem) {
+@media (max-width: 63rem) {
   html {
     font-size: 38%;
   }
 }
-@media (max-width: 56rem) {
+@media (max-width: 59rem) {
   html {
     font-size: 36%;
   }
 }
-@media (max-width: 53rem) {
+@media (max-width: 57rem) {
   html {
     font-size: 34%;
   }
 }
-@media (max-width: 50rem) {
+@media (max-width: 54rem) {
   html {
     font-size: 32%;
   }
 }
-@media (max-width: 48rem) {
+@media (max-width: 51rem) {
   html {
     font-size: 30%;
+  }
+}
+@media (max-width: 49rem) {
+  html {
+    font-size: 28%;
   }
 }
 @media (max-width: 46rem) {
