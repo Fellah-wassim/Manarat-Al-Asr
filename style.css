@@ -291,7 +291,8 @@ body {
 }
 .input-note {
   font-family: "Tajawal", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
   position: relative;
   width: 33.9rem;
   height: 13.29vh;
@@ -302,10 +303,6 @@ body {
   top: 2.92vh;
   left: 0.3rem;
   z-index: 1;
-  /* background: url(IMG/edit.png) no-repeat;
-  background-size: 25%;
-  background-position: 1rem 1rem;
-  opacity: 50%; */
   text-align: right;
   padding: 1rem;
   padding-top: 2rem;
@@ -323,22 +320,24 @@ textarea::-webkit-scrollbar-thumb {
 textarea:focus,
 input:focus {
   outline: none;
-  background: none;
+  /* background: none; */
 }
 .input-note::placeholder {
   font-family: "Tajawal", sans-serif;
   position: absolute;
   font-size: 1.4rem;
-  top: 2.65vh;
+  top: 2rem;
+  width: 30.9rem;
+  height: 10.29vh;
   right: 1rem;
   z-index: 3;
   letter-spacing: 0;
   color: #282626;
   font-weight: 700;
   opacity: 1;
-}
-input:focus::-webkit-input-placeholder {
-  opacity: 0;
+  background: url(IMG/edit.png) no-repeat;
+  background-size: 20%;
+  opacity: 50%;
 }
 .invoice {
   position: relative;
@@ -543,7 +542,7 @@ input:focus::-webkit-input-placeholder {
 }
 .page2-box21 {
   position: absolute;
-  top: 38.3vh;
+  top: 38.7vh;
   width: 55.3rem;
   height: 49.86vh;
   background: #ffffff 0% 0% no-repeat padding-box;
