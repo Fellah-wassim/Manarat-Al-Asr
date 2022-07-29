@@ -1118,7 +1118,7 @@ input[type="date"] {
   color: #282626;
   top: 6.25vh;
   right: 3.6rem;
-  gap: 4.6rem;
+  gap: 4rem;
 }
 .kamia {
   display: flex;
@@ -1135,8 +1135,6 @@ input[type="date"] {
   background: #fdc53a 0% 0% no-repeat padding-box;
   border: 0.05rem solid #ffffff;
   border-radius: 5rem;
-}
-.plus-button {
 }
 .kamia-input {
   text-align: center;
@@ -1173,6 +1171,14 @@ input::-webkit-inner-spin-button {
   color: #282626;
   padding-left: 1.2rem;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.input-price {
+  width: 3rem;
+  font-size: 1.6rem;
+  color: #282626;
+  font-weight: bold;
   background-color: transparent;
   border: none;
 }
