@@ -1227,8 +1227,9 @@ input::-webkit-inner-spin-button {
   background-color: transparent;
 }
 .delete-icon {
+  cursor: pointer;
   width: 2.2rem;
-  height: 2.92vh;
+  height: 2.2rem;
 }
 .ijmali-txt {
   display: flex;
