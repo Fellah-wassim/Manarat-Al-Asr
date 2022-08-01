@@ -1099,7 +1099,7 @@ input[type="date"] {
   width: 1.6rem;
   height: 2.12;
   background-color: #fdc53a;
-  top: 0.77vh;
+  top: 0.7vh;
   right: 1rem;
   display: flex;
   justify-content: center;
@@ -1118,7 +1118,7 @@ input[type="date"] {
   color: #282626;
   top: 6.25vh;
   right: 3.6rem;
-  gap: 4rem;
+  gap: 2rem;
 }
 .kamia {
   display: flex;
@@ -1175,12 +1175,14 @@ input::-webkit-inner-spin-button {
   border: none;
 }
 .input-price {
-  width: 3rem;
+  width: 3.4rem;
   font-size: 1.6rem;
   color: #282626;
   font-weight: bold;
-  background-color: transparent;
+  background-color: white;
   border: none;
+  border-radius: 1rem;
+  text-align: center;
 }
 .khasm {
   display: flex;
@@ -1219,8 +1221,8 @@ input::-webkit-inner-spin-button {
   align-items: center;
   gap: 2.8rem;
   position: absolute;
-  top: 1.86vh;
-  left: 2.5rem;
+  top: 2vh;
+  left: 1rem;
 }
 .ijmali button {
   border: none;
