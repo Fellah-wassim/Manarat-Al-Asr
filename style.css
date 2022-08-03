@@ -553,6 +553,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .page2-box21-txt {
   text-align: left;
@@ -1074,6 +1075,13 @@ input[type="date"] {
 .when-choose-fiaa.active .product-list button .spans {
   display: none;
 }
+.pricing-tables {
+  position: absolute;
+  top: 38.7vh;
+  width: 52.3rem;
+  height: 49.86vh;
+  background-color: #000;
+}
 .pricing-box {
   position: relative;
   width: 52.3rem;
@@ -1103,6 +1111,15 @@ input[type="date"] {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.numbering-box-txt {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #282626;
+  position: absolute;
+  right: 2rem;
+  width: 30rem;
+  text-align: right;
 }
 .nbr {
   font-size: 1.8rem;
