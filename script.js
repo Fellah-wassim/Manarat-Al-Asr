@@ -68,17 +68,16 @@ function displayAsnafFiaa1() {
   colorFiaaBtn.classList.toggle('active');
 }
 //on delete any box
-// if (number === 0) {
-//   document.querySelector(".page2-box21").style.display = "content";
-// }
+
 let number = 0;
 function buildBox(fiaaClass) {
   number++;
   const classe = 'ID' + number;
+  const id = 'id' + number;
   document.querySelector('.page2-box21').style.display = 'none';
   document.querySelector(
     '.pricing-tables'
-  ).innerHTML += `<div class="pricing-box ${classe}">
+  ).innerHTML += `<div class="pricing-box ${classe}" id="${id}">
                 <div class="pricing-name-box">
                   <div class="numbering-box"><p class="numbering-box-txt">${
                     document.querySelector('.' + fiaaClass + ' .product-name')
@@ -121,7 +120,7 @@ function buildBox(fiaaClass) {
                       <div class="dariba"></div>
                       </div>
                       <div class="ijmali">
-                      <button onclick="deleteBox()">
+                      <button class="delete-btn" onclick="deleteBox(${number})" >
                       <img class="delete-icon" src="IMG/trash.png" alt="trash icon">
                   </button>
                   <div class="ijmali-txt">
@@ -148,11 +147,11 @@ function kamiaMinusOne(number) {
       '0' + document.getElementById('ID' + number).value--;
   }
 }
-function deleteBox() {
-  if (number > 0) {
-    document.querySelector('.nbr').textContent--;
-    document.querySelector('.pricing-tables').innerHTML -=
-      document.querySelector('.ID' + Number);
-    number--;
-  }
+function deleteBox(num) {
+  const classe = 'ID' + num;
+  const id = 'id' + num;
+  const pricingBox = document.getElementById(id);
+  const parent = pricingBox.parentNode;
+  parent.removeChild(pricingBox);
+  number--;
 }
