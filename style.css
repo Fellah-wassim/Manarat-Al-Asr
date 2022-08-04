@@ -553,7 +553,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  /* display: none; */
 }
 .page2-box21-txt {
   text-align: left;
@@ -1077,10 +1077,14 @@ input[type="date"] {
 }
 .pricing-tables {
   position: absolute;
-  top: 38.7vh;
-  width: 52.3rem;
-  height: 49.86vh;
-  background-color: #000;
+  top: 40vh;
+  left: 37.5rem;
+  width: 53.3rem;
+  height: 48.5vh;
+  overflow-y: scroll;
+}
+.pricing-tables::-webkit-scrollbar {
+  display: none;
 }
 .pricing-box {
   position: relative;
@@ -1090,6 +1094,7 @@ input[type="date"] {
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
   border-radius: 5rem;
+  margin-bottom: 1.6rem;
 }
 .pricing-name-box {
   position: absolute;
