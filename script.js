@@ -131,13 +131,6 @@ function buildBox(fiaaClass) {
                 </div>
                 </div>`;
 }
-function deleteBox() {
-  document.querySelector('.nbr').textContent--;
-  document.querySelector('.pricing-tables').innerHTML -= document.querySelector(
-    '.ID' + Number
-  );
-  number--;
-}
 
 function kamiaPlusOne(number) {
   const val = document.getElementById('ID' + number).value;
@@ -153,5 +146,13 @@ function kamiaMinusOne(number) {
   if (val < 11) {
     document.getElementById('ID' + number).value =
       '0' + document.getElementById('ID' + number).value--;
+  }
+}
+function deleteBox() {
+  if (number > 0) {
+    document.querySelector('.nbr').textContent--;
+    document.querySelector('.pricing-tables').innerHTML -=
+      document.querySelector('.ID' + Number);
+    number--;
   }
 }
