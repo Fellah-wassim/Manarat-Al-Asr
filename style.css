@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 input,
 textarea,
@@ -24,7 +24,7 @@ html {
   outline: none;
 }
 body {
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -184,7 +184,7 @@ body {
   transition: opacity 0.5s ease;
 }
 .tooltipText-fullscreen::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 57%;
   top: 100%;
@@ -248,7 +248,7 @@ body {
   transition: opacity 0.5s ease;
 }
 .tooltipText-return::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 100%;
@@ -290,7 +290,7 @@ body {
   z-index: 2;
 }
 .input-note {
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
   position: relative;
@@ -323,7 +323,7 @@ input:focus {
   /* background: none; */
 }
 .input-note::placeholder {
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   position: absolute;
   font-size: 1.4rem;
   top: 2rem;
@@ -481,7 +481,7 @@ input:focus {
   transition: all 0.5s;
 }
 .sidad-txt {
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -585,7 +585,7 @@ input:focus {
 .grid1 input,
 .grid2 input {
   position: relative;
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   width: 24rem;
   height: 3.3rem;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -610,19 +610,19 @@ input:focus {
   top: 0.66vh;
   right: 1.5rem;
 }
-input[type="date"]::-webkit-calendar-picker-indicator {
+input[type='date']::-webkit-calendar-picker-indicator {
   opacity: 0;
   width: 5rem;
   height: 4.38vh;
   position: absolute;
   left: 1rem;
 }
-input[type="date"]::placeholder {
-  font-family: "Tajawal", sans-serif;
+input[type='date']::placeholder {
+  font-family: 'Tajawal', sans-serif;
   font-size: 5rem;
   font-weight: 800;
 }
-input[type="date"] {
+input[type='date'] {
   text-align: center;
   background: url(IMG/calendar.png) no-repeat;
   background-size: 1.5rem 1.5rem;
@@ -875,7 +875,7 @@ input[type="date"] {
 }
 .fiaat button {
   position: relative;
-  width: 10.9rem;
+  width: 15rem;
   height: 4.1rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0rem 0.3rem 0.6rem#00000029;
@@ -925,7 +925,7 @@ input[type="date"] {
 .list-display {
   position: absolute;
   top: 8.51vh;
-  left: 2rem;
+  left: 0.8rem;
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -968,7 +968,7 @@ input[type="date"] {
   visibility: hidden;
   overflow-y: scroll;
   height: 71.8vh;
-  width: 30rem;
+  width: 32.5rem;
 }
 .asnaf-fiaa1.active {
   visibility: visible;
@@ -987,8 +987,8 @@ input[type="date"] {
 }
 .product-list button {
   position: relative;
-  width: 26.8rem;
-  min-height: 4rem;
+  width: 31rem;
+  height: 4.1rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.1rem 0.4rem 0.6rem#00000029;
   border: 0.05rem solid #840200;
@@ -1008,16 +1008,17 @@ input[type="date"] {
   position: absolute;
   text-align: right;
   top: 0.9rem;
-  right: 4.8rem;
+  right: 4rem;
   font-size: 1.4rem;
   font-weight: 600;
   font: normal normal medium 1.6rem/2.2rem Tajawal;
   letter-spacing: 0;
   color: #282626;
+  width: 19.5rem;
 }
 .product-list button .color {
   position: absolute;
-  right: 1.3rem;
+  right: 0.46rem;
   top: 0.7rem;
   width: 2.8rem;
   height: 2.6rem;
@@ -1050,8 +1051,8 @@ input[type="date"] {
   grid-template-columns: repeat(3, 8.3rem);
 }
 .when-choose-fiaa.active .product-list button {
-  width: 9rem;
-  height: 8.9rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 0.7rem;
   transition: none;
   margin-left: 0.3rem;

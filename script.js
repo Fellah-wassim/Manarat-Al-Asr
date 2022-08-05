@@ -72,6 +72,7 @@ function displayAsnafFiaa1() {
 let number = 0;
 function buildBox(fiaaClass) {
   number++;
+  const nbrClasse = 'nbr' + number;
   const classe = 'ID' + number;
   const id = 'id' + number;
   document.querySelector('.page2-box21').style.display = 'none';
@@ -154,4 +155,7 @@ function deleteBox(num) {
   const parent = pricingBox.parentNode;
   parent.removeChild(pricingBox);
   number--;
+  if (number === 0) {
+    document.querySelector('.page2-box21').style.display = 'flex';
+  }
 }
