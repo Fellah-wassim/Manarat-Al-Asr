@@ -610,26 +610,29 @@ input:focus {
   top: 0.66vh;
   right: 1.5rem;
 }
-input[type='date']::-webkit-calendar-picker-indicator {
+input[type='datetime-local']::-webkit-calendar-picker-indicator {
   opacity: 0;
   width: 5rem;
   height: 4.38vh;
   position: absolute;
   left: 1rem;
+  cursor: pointer;
 }
-input[type='date']::placeholder {
+input[type='datetime-local']::placeholder {
   font-family: 'Tajawal', sans-serif;
   font-size: 5rem;
   font-weight: 800;
+  cursor: pointer;
 }
-input[type='date'] {
+input[type='datetime-local'] {
   text-align: center;
   background: url(IMG/calendar.png) no-repeat;
   background-size: 1.5rem 1.5rem;
   background-position: 5%;
   background-color: #ffffff;
-  padding-left: 13rem;
+  padding-left: 8rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .select {
   position: relative;
@@ -905,7 +908,12 @@ input[type='date'] {
   color: #282626;
   font-size: 1.4rem;
   font-weight: 700;
-  padding-right: 4rem;
+  position: absolute;
+  text-align: right;
+  top: 0.9rem;
+  right: 4rem;
+  overflow: hidden;
+  width: 10rem;
 }
 /* FIAAT color for each one  */
 .F-color1 {
@@ -945,7 +953,7 @@ input[type='date'] {
   opacity: 0;
   position: absolute;
   top: 8.51vh;
-  left: 2.2rem;
+  left: 1.2rem;
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -1015,7 +1023,9 @@ input[type='date'] {
   letter-spacing: 0;
   color: #282626;
   width: 19.5rem;
+  overflow: hidden;
 }
+
 .product-list button .color {
   position: absolute;
   right: 0.46rem;
@@ -1053,7 +1063,7 @@ input[type='date'] {
 .when-choose-fiaa.active .product-list button {
   width: 10rem;
   height: 10rem;
-  border-radius: 0.7rem;
+  border-radius: 1.5rem;
   transition: none;
   margin-left: 0.3rem;
   margin-bottom: 1.7rem;
@@ -1069,6 +1079,8 @@ input[type='date'] {
   color: #282626;
   margin-left: 1rem;
   margin-right: 1rem;
+  width: 8rem;
+  height: 8rem;
 }
 .when-choose-fiaa.active .product-list button .color {
   display: none;
@@ -1125,7 +1137,9 @@ input[type='date'] {
   position: absolute;
   right: 2rem;
   width: 30rem;
+  height: 1.4rem;
   text-align: right;
+  overflow: hidden;
 }
 .nbr {
   font-size: 1.8rem;
