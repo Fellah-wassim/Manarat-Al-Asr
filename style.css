@@ -902,6 +902,8 @@ input[type='datetime-local'] {
   border-radius: 1.1rem;
 }
 .fiaa-name {
+  background-color: transparent;
+  border: none;
   font-size: 1.4rem;
   text-align: right;
   letter-spacing: 0px;
@@ -910,10 +912,16 @@ input[type='datetime-local'] {
   font-weight: 700;
   position: absolute;
   text-align: right;
-  top: 0.9rem;
+  top: 0.8rem;
   right: 4rem;
-  overflow: hidden;
   width: 10rem;
+  height: 2.5rem;
+  resize: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.fiaa-name::-webkit-scrollbar {
+  display: none;
 }
 /* FIAAT color for each one  */
 .F-color1 {
@@ -1023,7 +1031,7 @@ input[type='datetime-local'] {
   color: #282626;
   background-color: transparent;
   border: none;
-  width: 19.5rem;
+  width: 21rem;
   height: 2.5rem;
   resize: none;
   cursor: pointer;
@@ -1048,8 +1056,8 @@ input[type='datetime-local'] {
 }
 .spans {
   position: absolute;
-  left: 2.2rem;
-  top: 01rem;
+  left: 1.2rem;
+  top: 0.8rem;
   display: flex;
   align-items: center;
   font-size: 1.4rem;
@@ -1089,6 +1097,7 @@ input[type='datetime-local'] {
   width: 8rem;
   height: 8rem;
   white-space: initial;
+  text-align: center;
 }
 .when-choose-fiaa.active .product-list button .color {
   display: none;
@@ -1145,9 +1154,16 @@ input[type='datetime-local'] {
   position: absolute;
   right: 2rem;
   width: 30rem;
-  height: 1.4rem;
+  height: 2.4rem;
   text-align: right;
-  overflow: hidden;
+  resize: none;
+  cursor: pointer;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+}
+.numbering-box-txt::-webkit-scrollbar {
+  display: none;
 }
 .nbr {
   font-size: 1.8rem;

@@ -80,10 +80,10 @@ function buildBox(fiaaClass) {
     '.pricing-tables'
   ).innerHTML += `<div class="pricing-box ${classe}" id="${id}">
                 <div class="pricing-name-box">
-                  <div class="numbering-box"><p class="numbering-box-txt">${
+                  <div class="numbering-box"><textarea class="numbering-box-txt" readonly>${
                     document.querySelector('.' + fiaaClass + ' .product-name')
                       .textContent
-                  }</p><span class="nbr">${number}</span></div>
+                  }</textarea><span class="nbr">${number}</span></div>
                 </div>
                 <div class="flex-list-pricing-box">
                   <div class="kamia">
