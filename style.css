@@ -1123,7 +1123,7 @@ input[type='datetime-local'] {
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
   border: 0.05rem solid #840200;
-  border-radius: 5rem;
+  border-radius: 3rem;
   margin-bottom: 1.6rem;
 }
 .pricing-name-box {
