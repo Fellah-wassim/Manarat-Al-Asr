@@ -1131,7 +1131,7 @@ input[type='datetime-local'] {
   position: absolute;
   top: 1.46vh;
   right: 2.6rem;
-  width: 33.3rem;
+  width: 35.3rem;
   height: 3.72vh;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.05rem solid #901b17;
@@ -1154,7 +1154,7 @@ input[type='datetime-local'] {
   color: #282626;
   position: absolute;
   right: 2rem;
-  width: 30rem;
+  width: 31.8rem;
   height: 2.4rem;
   text-align: right;
   resize: none;
@@ -1178,7 +1178,7 @@ input[type='datetime-local'] {
   font-size: 1.8rem;
   color: #282626;
   top: 6.25vh;
-  right: 3.6rem;
+  right: 2.6rem;
   gap: 2rem;
 }
 .kamia {
@@ -1201,7 +1201,7 @@ input[type='datetime-local'] {
   text-align: center;
   border: none;
   background-color: transparent;
-  width: 2.3rem;
+  width: 2.8rem;
   font-size: 1.8rem;
   color: #282626;
 }
@@ -1236,7 +1236,7 @@ input::-webkit-inner-spin-button {
   border: none;
 }
 .input-price {
-  width: 3.4rem;
+  width: 4.4rem;
   font-size: 1.6rem;
   color: #282626;
   font-weight: bold;
@@ -1280,7 +1280,7 @@ input::-webkit-inner-spin-button {
 .ijmali {
   display: flex;
   align-items: center;
-  gap: 2.8rem;
+  gap: 1.6rem;
   position: absolute;
   top: 2vh;
   left: 1rem;
