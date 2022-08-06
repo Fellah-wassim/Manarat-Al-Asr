@@ -308,11 +308,11 @@ body {
   padding-top: 2rem;
   resize: none;
 }
-textarea::-webkit-scrollbar {
+.input-note::-webkit-scrollbar {
   width: 12px;
   background-color: #f5f5f5;
 }
-textarea::-webkit-scrollbar-thumb {
+.input-note::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: #fdc53a;
@@ -1015,15 +1015,22 @@ input[type='datetime-local'] {
 .product-name {
   position: absolute;
   text-align: right;
-  top: 0.9rem;
+  top: 0.8rem;
   right: 4rem;
   font-size: 1.4rem;
   font-weight: 600;
-  font: normal normal medium 1.6rem/2.2rem Tajawal;
   letter-spacing: 0;
   color: #282626;
+  background-color: transparent;
+  border: none;
   width: 19.5rem;
-  overflow: hidden;
+  height: 2.5rem;
+  resize: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.product-name::-webkit-scrollbar {
+  display: none;
 }
 
 .product-list button .color {
@@ -1081,6 +1088,7 @@ input[type='datetime-local'] {
   margin-right: 1rem;
   width: 8rem;
   height: 8rem;
+  white-space: initial;
 }
 .when-choose-fiaa.active .product-list button .color {
   display: none;
