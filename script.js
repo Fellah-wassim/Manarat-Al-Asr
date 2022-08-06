@@ -106,7 +106,7 @@ function buildBox(fiaaClass) {
                       </select>
                       </div>
                       <div class="si3r">
-                      <input class="input-price" type="number" value="00" size="3">
+                      <input class="input-price"  type="number" value="00" size="3">
                       </div>
                       <div class="">
                       <input class="input-price" type="number" value="00" size="3">
