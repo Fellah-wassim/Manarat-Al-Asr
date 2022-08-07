@@ -48,6 +48,7 @@ body {
   opacity: 1;
 }
 .profile {
+  height: 5.81vh;
   top: 1.3vh;
   left: 1.7rem;
   position: absolute;
@@ -62,7 +63,6 @@ body {
 }
 .profile-img {
   width: 4.4rem;
-  height: 5.81vh;
   min-height: 4rem;
   border-radius: 5rem;
   border: 0.05rem solid #840200;
