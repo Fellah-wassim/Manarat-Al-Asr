@@ -108,9 +108,6 @@ function buildBox(fiaaClass) {
                       <div class="si3r">
                       <input class="input-price"  type="number" value="00" size="3">
                       </div>
-                      <div class="">
-                      <input class="input-price" type="number" value="00" size="3">
-                      </div>
                       <div class="khasm">
                       <input class="input-price" type="number" value="00" size="3">
                       <select name="" id="">
@@ -118,7 +115,9 @@ function buildBox(fiaaClass) {
                       <option value="nissba">%</option>
                       </select>
                       </div>
-                      <div class="dariba"></div>
+                      <div class="dariba">
+                      <input class="input-price" type="number" value="00" size="3" readonly>
+                      </div>
                       </div>
                       <div class="ijmali">
                       <button class="delete-btn" onclick="deleteBox(${number})" >
