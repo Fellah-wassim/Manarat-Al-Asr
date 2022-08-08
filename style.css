@@ -1109,8 +1109,8 @@ input[type='datetime-local'] {
 .pricing-tables {
   position: absolute;
   top: 40vh;
-  left: 37.5rem;
-  width: 53.3rem;
+  left: 36rem;
+  width: 57rem;
   height: 48.5vh;
   overflow-y: scroll;
 }
@@ -1119,7 +1119,7 @@ input[type='datetime-local'] {
 }
 .pricing-box {
   position: relative;
-  width: 52.3rem;
+  width: 56rem;
   height: 10.37vh;
   background: #fff7db 0% 0% no-repeat padding-box;
   box-shadow: 0.5rem 0.4rem 0.6rem #00000029;
@@ -1280,7 +1280,7 @@ input::-webkit-inner-spin-button {
 .ijmali {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 4rem;
   position: absolute;
   top: 2vh;
   left: 1rem;

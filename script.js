@@ -83,7 +83,7 @@ function buildBox(fiaaClass) {
                   <div class="numbering-box"><textarea class="numbering-box-txt" readonly>${
                     document.querySelector('.' + fiaaClass + ' .product-name')
                       .textContent
-                  }</textarea><span class="nbr">${number}</span></div>
+                  }</textarea><span class="nbr ${nbrClasse}" id="${nbrClasse}">${number}</span></div>
                 </div>
                 <div class="flex-list-pricing-box">
                   <div class="kamia">
@@ -129,6 +129,8 @@ function buildBox(fiaaClass) {
                   </div>
                 </div>
                 </div>`;
+  var messageBody = document.querySelector('.pricing-tables');
+  messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
 }
 
 function kamiaPlusOne(number) {
@@ -150,11 +152,17 @@ function kamiaMinusOne(number) {
 function deleteBox(num) {
   const classe = 'ID' + num;
   const id = 'id' + num;
+  number--;
   const pricingBox = document.getElementById(id);
   const parent = pricingBox.parentNode;
   parent.removeChild(pricingBox);
-  number--;
+
   if (number === 0) {
     document.querySelector('.page2-box21').style.display = 'flex';
+  }
+  num++;
+  for (let i = num; i <= 1000; i++) {
+    let nbrClasse = 'nbr' + i;
+    document.getElementById(nbrClasse).textContent--;
   }
 }
