@@ -169,12 +169,13 @@ function deleteBox(num) {
 let modalNumber = 1;
 function plusElement() {
   modalNumber++;
+  let iddelete = 'iddelete' + modalNumber;
   let tassalssoulNbr = 'number' + modalNumber;
   let madfou3atBoxId = 'id' + modalNumber;
   document.querySelector('.madfou3at-box').innerHTML += `
   <div class="madfou3at-scroll-element" id="${madfou3atBoxId}">
               <div class="mdf">
-              <span class="nbr-madfou3at" id="${tassalssoulNbr}">1</span>
+              <span class="nbr-madfou3at">${modalNumber}</span>
               <select name="" id="">
                 <option value=""> <p>نقدي</p> </option>
                 <option value="">شبكي</option>
@@ -182,18 +183,16 @@ function plusElement() {
               </div>
               <div class="mdf2">
               <input type="number" value="00.00" class="price-element"/>
-              <img class="delete-icon-mdf" src="IMG/trash.png" alt="trash icon">
+              <img class="delete-icon-mdf" src="IMG/trash.png" alt="trash icon" id="${iddelete}" onclick="minusElement()">
             </div>
             </div>
   `;
-  document.getElementById(tassalssoulNbr).textContent = modalNumber;
   document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
   var messageBody = document.querySelector('.madfou3at-box');
   messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
 }
 function minusElement() {
   if (modalNumber > 1) {
-    let tassalssoulNbr = 'number' + modalNumber;
     let madfou3atBoxId = 'id' + modalNumber;
     const madfou3atBox = document.getElementById(madfou3atBoxId);
     const parent = madfou3atBox.parentNode;
@@ -204,3 +203,10 @@ function minusElement() {
     messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
   }
 }
+const overlay = document.querySelector('.overlay');
+const sidadModal = document.querySelector('.sidad-modal');
+const sidadBtn = document.querySelector('.sidad-btn');
+sidadBtn.addEventListener('click', function () {
+  sidadModal.classList.remove('hidden');
+  overlay.classList.remove('hidden');
+});

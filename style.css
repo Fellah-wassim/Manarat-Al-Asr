@@ -1524,3 +1524,6 @@ input::-webkit-inner-spin-button {
 .hifd-tiba3a-btn:hover > .hifd-tiba3a-txt {
   color: white;
 }
+.hidden {
+  display: none;
+}
