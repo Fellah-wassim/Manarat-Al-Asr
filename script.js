@@ -170,10 +170,11 @@ let modalNumber = 1;
 function plusElement() {
   modalNumber++;
   let tassalssoulNbr = 'number' + modalNumber;
+  let madfou3atBoxId = 'id' + modalNumber;
   document.querySelector('.madfou3at-box').innerHTML += `
-  <div class="madfou3at-scroll-element">
+  <div class="madfou3at-scroll-element" id="${madfou3atBoxId}">
               <div class="mdf">
-              <span class="nbr-madfou3at ${tassalssoulNbr}">1</span>
+              <span class="nbr-madfou3at" id="${tassalssoulNbr}">1</span>
               <select name="" id="">
                 <option value=""> <p>نقدي</p> </option>
                 <option value="">شبكي</option>
@@ -185,8 +186,17 @@ function plusElement() {
             </div>
             </div>
   `;
-  document.querySelector('.' + tassalssoulNbr).textContent = modalNumber;
+  document.getElementById(tassalssoulNbr).textContent = modalNumber;
+  document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
   var messageBody = document.querySelector('.madfou3at-box');
   messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
-  document.querySelector('.numberOfmadfou3at').textContent++;
+}
+function minusElement() {
+  let tassalssoulNbr = 'number' + modalNumber;
+  let madfou3atBoxId = 'id' + modalNumber;
+  const madfou3atBox = document.getElementById(madfou3atBoxId);
+  const parent = madfou3atBox.parentNode;
+  parent.removeChild(madfou3atBox);
+  modalNumber--;
+  document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
 }
