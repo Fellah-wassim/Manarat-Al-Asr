@@ -192,11 +192,15 @@ function plusElement() {
   messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
 }
 function minusElement() {
-  let tassalssoulNbr = 'number' + modalNumber;
-  let madfou3atBoxId = 'id' + modalNumber;
-  const madfou3atBox = document.getElementById(madfou3atBoxId);
-  const parent = madfou3atBox.parentNode;
-  parent.removeChild(madfou3atBox);
-  modalNumber--;
-  document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
+  if (modalNumber > 1) {
+    let tassalssoulNbr = 'number' + modalNumber;
+    let madfou3atBoxId = 'id' + modalNumber;
+    const madfou3atBox = document.getElementById(madfou3atBoxId);
+    const parent = madfou3atBox.parentNode;
+    parent.removeChild(madfou3atBox);
+    modalNumber--;
+    document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
+    var messageBody = document.querySelector('.madfou3at-box');
+    messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
+  }
 }
