@@ -166,3 +166,27 @@ function deleteBox(num) {
     document.getElementById(nbrClasse).textContent--;
   }
 }
+let modalNumber = 1;
+function plusElement() {
+  modalNumber++;
+  let tassalssoulNbr = 'number' + modalNumber;
+  document.querySelector('.madfou3at-box').innerHTML += `
+  <div class="madfou3at-scroll-element">
+              <div class="mdf">
+              <span class="nbr-madfou3at ${tassalssoulNbr}">1</span>
+              <select name="" id="">
+                <option value=""> <p>نقدي</p> </option>
+                <option value="">شبكي</option>
+              </select>
+              </div>
+              <div class="mdf2">
+              <input type="number" value="00.00" class="price-element"/>
+              <img class="delete-icon-mdf" src="IMG/trash.png" alt="trash icon">
+            </div>
+            </div>
+  `;
+  document.querySelector('.' + tassalssoulNbr).textContent = modalNumber;
+  var messageBody = document.querySelector('.madfou3at-box');
+  messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
+  document.querySelector('.numberOfmadfou3at').textContent++;
+}

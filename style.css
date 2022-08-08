@@ -1362,6 +1362,28 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s;
+}
+.svg1 {
+  width: 2rem;
+  height: 2rem;
+}
+.svg2 {
+  width: 2rem;
+  height: 0.4rem;
+}
+.svg1-path,
+.svg2-path {
+  transition: all 0.2s;
+}
+.sidad-total-btn:hover {
+  background: #840200 0% 0% no-repeat padding-box;
+  border: 0.020000000298023224rem solid #000000;
+  cursor: pointer;
+}
+.sidad-total-btn:hover .svg1-path,
+.sidad-total-btn:hover .svg2-path {
+  fill: white;
 }
 .flex-total {
   display: flex;
@@ -1479,4 +1501,26 @@ input::-webkit-inner-spin-button {
   align-items: center;
   justify-content: center;
   gap: 3.2rem;
+  margin-top: 4rem;
+}
+.hifd-tiba3a-btn {
+  width: 40rem;
+  height: 5.2rem;
+  background: #fdc53a 0% 0% no-repeat padding-box;
+  border: 0.1rem solid #840200;
+  border-radius: 3rem;
+  letter-spacing: 0px;
+  color: #840200;
+  font-size: 2.6rem;
+  margin-top: 5.4rem;
+  cursor: pointer;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.hifd-tiba3a-btn:hover {
+  background: #840200 0% 0% no-repeat padding-box;
+  border: 0.020000000298023224rem solid #000000;
+}
+.hifd-tiba3a-btn:hover > .hifd-tiba3a-txt {
+  color: white;
 }
