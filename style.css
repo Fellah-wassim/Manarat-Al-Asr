@@ -1305,6 +1305,7 @@ input::-webkit-inner-spin-button {
   color: #000;
 }
 .overlay {
+  cursor: grab;
   position: absolute;
   top: 0;
   left: 0;
