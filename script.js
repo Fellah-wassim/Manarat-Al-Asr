@@ -203,10 +203,20 @@ function minusElement() {
     messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
   }
 }
+const closeModal = function () {
+  sidadModal.classList.add('hidden');
+  overlay.classList.add('hidden');
+};
 const overlay = document.querySelector('.overlay');
 const sidadModal = document.querySelector('.sidad-modal');
 const sidadBtn = document.querySelector('.sidad-btn');
 sidadBtn.addEventListener('click', function () {
   sidadModal.classList.remove('hidden');
   overlay.classList.remove('hidden');
+});
+overlay.addEventListener('click', closeModal);
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') {
+    closeModal();
+  }
 });
