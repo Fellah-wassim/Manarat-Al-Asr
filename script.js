@@ -166,12 +166,18 @@ function deleteBox(num) {
     document.getElementById(nbrClasse).textContent--;
   }
 }
+let price = 1000;
+document.querySelector('.sidad-total span').textContent = price;
 let modalNumber = 1;
+document.querySelector('.price-element').value = (price / modalNumber).toFixed(
+  2
+);
 function plusElement() {
   modalNumber++;
   let iddelete = 'iddelete' + modalNumber;
   let tassalssoulNbr = 'number' + modalNumber;
   let madfou3atBoxId = 'id' + modalNumber;
+  let priceElement = 'price' + modalNumber;
   document.querySelector('.madfou3at-box').innerHTML += `
   <div class="madfou3at-scroll-element" id="${madfou3atBoxId}">
               <div class="mdf">
@@ -182,7 +188,7 @@ function plusElement() {
               </select>
               </div>
               <div class="mdf2">
-              <input type="number" value="00.00" class="price-element"/>
+              <input type="number" value="00.00" class="price-element ${priceElement}"/>
               <img class="delete-icon-mdf" src="IMG/trash.png" alt="trash icon" id="${iddelete}" onclick="minusElement()">
             </div>
             </div>
@@ -190,7 +196,19 @@ function plusElement() {
   document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
   var messageBody = document.querySelector('.madfou3at-box');
   messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
+  if (modalNumber > 1) {
+    for (let i = 2; i <= modalNumber; i++) {
+      let priceElement2 = 'price' + i;
+      document.querySelector('.' + priceElement2).value = (
+        price / modalNumber
+      ).toFixed(2);
+    }
+  }
+  document.querySelector('.price-element').value = (
+    price / modalNumber
+  ).toFixed(2);
 }
+
 function minusElement() {
   if (modalNumber > 1) {
     let madfou3atBoxId = 'id' + modalNumber;
@@ -201,6 +219,15 @@ function minusElement() {
     document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
     var messageBody = document.querySelector('.madfou3at-box');
     messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
+    for (let i = 2; i <= modalNumber; i++) {
+      let priceElement2 = 'price' + i;
+      document.querySelector('.' + priceElement2).value = (
+        price / modalNumber
+      ).toFixed(2);
+    }
+    document.querySelector('.price-element').value = (
+      price / modalNumber
+    ).toFixed(2);
   }
 }
 const closeModal = function () {
