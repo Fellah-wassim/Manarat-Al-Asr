@@ -167,7 +167,7 @@ function deleteBox(num) {
   }
 }
 let price = 1000;
-document.querySelector('.sidad-total span').textContent = price;
+document.querySelector('.sidad-total span').textContent = price.toFixed(2);
 let modalNumber = 1;
 document.querySelector('.price-element').value = (price / modalNumber).toFixed(
   2
