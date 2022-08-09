@@ -1332,7 +1332,7 @@ input::-webkit-inner-spin-button {
   height: 5.2rem;
   background: #fff7db 0% 0% no-repeat padding-box;
   border: 0.1rem solid #840200;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   margin: 2rem auto;
   display: flex;
   justify-content: center;
@@ -1481,6 +1481,7 @@ input::-webkit-inner-spin-button {
 .madfou3-input,
 .motaba9i-input {
   height: 4rem;
+  border-radius: 1.5rem;
 }
 
 .madfou3-motabaki-flex {
