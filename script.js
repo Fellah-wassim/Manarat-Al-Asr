@@ -167,6 +167,7 @@ function deleteBox(num) {
   }
 }
 let price = 1000;
+document.querySelector('.motaba9i-input').value = price;
 document.querySelector('.sidad-total span').textContent = price.toFixed(2);
 let modalNumber = 0;
 function plusElement() {
