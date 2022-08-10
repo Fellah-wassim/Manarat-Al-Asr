@@ -168,10 +168,7 @@ function deleteBox(num) {
 }
 let price = 1000;
 document.querySelector('.sidad-total span').textContent = price.toFixed(2);
-let modalNumber = 1;
-document.querySelector('.price-element').value = (price / modalNumber).toFixed(
-  2
-);
+let modalNumber = 0;
 function plusElement() {
   modalNumber++;
   let iddelete = 'iddelete' + modalNumber;
@@ -188,7 +185,7 @@ function plusElement() {
               </select>
               </div>
               <div class="mdf2">
-              <input type="number" value="00.00" class="price-element ${priceElement}"/>
+              <input type="number" value="00.00" class="price-element ${priceElement}" onchange="madfou3Fnct()"/>
               <img class="delete-icon-mdf" src="IMG/trash.png" alt="trash icon" id="${iddelete}" onclick="minusElement()">
             </div>
             </div>
@@ -196,21 +193,19 @@ function plusElement() {
   document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
   var messageBody = document.querySelector('.madfou3at-box');
   messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
-  if (modalNumber > 1) {
-    for (let i = 2; i <= modalNumber; i++) {
+  if (modalNumber > 0) {
+    for (let i = 1; i <= modalNumber; i++) {
       let priceElement2 = 'price' + i;
       document.querySelector('.' + priceElement2).value = (
         price / modalNumber
       ).toFixed(2);
     }
   }
-  document.querySelector('.price-element').value = (
-    price / modalNumber
-  ).toFixed(2);
+  madfou3Fnct();
 }
 
 function minusElement() {
-  if (modalNumber > 1) {
+  if (modalNumber > 0) {
     let madfou3atBoxId = 'id' + modalNumber;
     const madfou3atBox = document.getElementById(madfou3atBoxId);
     const parent = madfou3atBox.parentNode;
@@ -219,17 +214,16 @@ function minusElement() {
     document.querySelector('.numberOfmadfou3at').textContent = modalNumber;
     var messageBody = document.querySelector('.madfou3at-box');
     messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
-    for (let i = 2; i <= modalNumber; i++) {
+    for (let i = 1; i <= modalNumber; i++) {
       let priceElement2 = 'price' + i;
       document.querySelector('.' + priceElement2).value = (
         price / modalNumber
       ).toFixed(2);
     }
-    document.querySelector('.price-element').value = (
-      price / modalNumber
-    ).toFixed(2);
   }
+  madfou3Fnct();
 }
+
 const closeModal = function () {
   sidadModal.classList.add('hidden');
   overlay.classList.add('hidden');
@@ -247,3 +241,19 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+const madfou3Fnct = function () {
+  let gg = 0;
+  for (let i = 1; i <= modalNumber; i++) {
+    let priceElement2 = 'price' + i;
+    gg = Number(document.querySelector('.' + priceElement2).value) + gg;
+  }
+  document.querySelector('.madfou3-input').value = gg.toFixed(2);
+  moutaba9iFnct();
+};
+
+const moutaba9iFnct = function () {
+  document.querySelector('.motaba9i-input').value = (
+    price - document.querySelector('.madfou3-input').value
+  ).toFixed(2);
+};
