@@ -194,7 +194,7 @@ body {
   border-color: #000000ac #0000 #0000 #0000;
 }
 .full-screen-btn:hover .tooltipText-fullscreen {
-  top: -150%;
+  top: -110%;
   left: -330%;
   visibility: visible;
   opacity: 1;
@@ -258,7 +258,7 @@ body {
   border-color: #000000ac #0000 #0000 #0000;
 }
 .left-arrow-btn:hover .tooltipText-return {
-  top: -110%;
+  top: -80%;
   left: -50%;
   visibility: visible;
   opacity: 1;
