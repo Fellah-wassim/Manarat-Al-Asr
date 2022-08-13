@@ -392,19 +392,7 @@ input:focus {
 .line-five-t {
   display: flex;
   align-items: center;
-  gap: 9.3rem;
-}
-.line-two-t {
-  gap: 11.7rem;
-}
-.line-three-t {
-  gap: 23rem;
-}
-.line-four-t {
-  gap: 14rem;
-}
-.line-five-t {
-  gap: 19rem;
+  gap: 4rem;
 }
 .no-tax-txt,
 .tax-txt,
@@ -426,6 +414,13 @@ input:focus {
   font-size: 1.6rem;
   font-weight: 700;
   color: #282626;
+}
+.lines textarea {
+  width: 25rem;
+  resize: none;
+  height: 2.4rem;
+  background-color: transparent;
+  border: none;
 }
 .line-ylw {
   width: 28.5rem;
