@@ -416,7 +416,8 @@ input:focus {
   color: #282626;
 }
 .lines textarea {
-  width: 25rem;
+  position: absolute;
+  width: 29.5rem;
   resize: none;
   height: 2.4rem;
   background-color: transparent;
